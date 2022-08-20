@@ -1,5 +1,5 @@
 <template>
-  <h3></h3>
+  <h3>Get in touch</h3>
 </template>
 
 <script>
