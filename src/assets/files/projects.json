@@ -1,24 +1,28 @@
 {
     "works" :[
         {
-            "title": "jiji",
-            "about": " Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sh",
+            "title": "Royalnet",
+            "about": "Royalnet is an online affilite marketing site that pays users for performing tasks, that is advertising products and services.",
             "background": "@/assets/images/theme-colour.png",
-            "link": "https://kdums.edu.ng/app-forms/",
+            "link": "https://royalnet.com.ng/",
             "stack": [
                 { "id": 1, "name": "HTML"},
                 { "id": 2, "name": "CSS"},
-                { "id": 3, "name": "Figma"}
+                { "id": 3, "name": "Bootstrap"},
+                { "id": 4, "name": "JavaScript"},
+                { "id": 5, "name": "PHP"},
+                { "id": 6, "name": "MySQL"}
             ]
         },
         {
-            "title": "kaliss",
-            "about": " kdn fk fwkn ckssssss    x so this is a short story about ehat i did ",
-            "link": "https://vuejs.org/api/built-in-directives.html#v-for",
+            "title": "My weather forecast",
+            "about": "A weather forecast web app that tells the current weather.",
+            "link": "https://my-weather-forcast.netlify.app",
             "stack": [
                 { "id": 1, "name": "HTML"},
                 { "id": 2, "name": "CSS"},
-                { "id": 3, "name": "Figma"}
+                { "id": 3, "name": "JavaScript"},
+                { "id": 4, "name": "Openweather API"}
             ]
         }
     ]

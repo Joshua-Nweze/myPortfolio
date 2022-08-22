@@ -1,9 +1,9 @@
 <template>
-  <div class="container">
+  <div class="container pb-5 text-center">
     <div>Work</div>
     <p>I am currently looking for a frontend or junior frontend developer role </p>
 
-    <a href=""><div class="contact mt-3 text-center">Contact me</div></a>
+    <a href="" class="d-flex justify-content-center"><div class="contact mt-3 text-center">Contact me</div></a>
   </div>
 </template>
 
@@ -14,7 +14,7 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
 .contact{
     border: chartreuse 1px solid;
     border-radius: 1px;

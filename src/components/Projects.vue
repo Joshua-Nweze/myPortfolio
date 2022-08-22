@@ -1,7 +1,7 @@
 <template>
-    <div class="container wrapper pb-5">
-        <div class="card" style="width: 100%;" >
-            <div v-for="project in my_projects" :key="project.id">
+    <div class="container wrapper pb-5" v-for="project in my_projects" :key="project.id">
+        <div class="card" style="width: 100%; ">
+            <div>
                 <div class="projects" >
                     <a :href="project.link" target="_blank">
                     <div class="view p-2 text-center">
@@ -18,13 +18,6 @@
                 <img :src="project.background" alt="">
                 <!-- <img src="../assets/images/theme-colour.png" alt=""> -->
             </div>
-            
-            <!-- <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
-            </div> -->
-            
         </div>
     </div>
     
@@ -63,7 +56,7 @@ export default {
         /* background-size: auto; */
         height: 400px;
         position: relative;
-        margin-top: 70px;
+        margin-top: 50px;
         filter: grayscale(100%);
     }
 
@@ -170,5 +163,7 @@ export default {
 
    .stack-span{
     margin-left: 20px;
+    display: inline-flex;  
+    flex-wrap: wrap;
    }
 </style>

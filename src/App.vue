@@ -17,6 +17,7 @@
   background-color: #0f2443;
   color: #727376;
   overflow-x: hidden;
+  font-size: 17px;
 }
 
 nav {
