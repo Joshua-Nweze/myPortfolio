@@ -34,6 +34,10 @@ export default {
     color: #727376;
 }
 
+.send-mail:hover{
+  color: chartreuse;
+}
+
 .social-icon{
     margin-right: 15px;
     color: chartreuse;

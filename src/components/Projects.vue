@@ -1,8 +1,8 @@
 <template>
     <div class="container wrapper pb-5" v-for="project in my_projects" :key="project.id">
-        <div class="card" style="width: 100%; ">
+        <div class="card projects" :style="{backgroundImage: 'url(' + require('../assets/images/' + project.background) + ')'}" >
             <div>
-                <div class="projects" >
+                <div>
                     <a :href="project.link" target="_blank">
                     <div class="view p-2 text-center">
                         <i class="bi bi-eye"></i><br>
@@ -17,6 +17,7 @@
                 </div>
                 <img :src="project.background" alt="">
                 <!-- <img src="../assets/images/theme-colour.png" alt=""> -->
+                <img />
             </div>
         </div>
     </div>
@@ -52,8 +53,11 @@ export default {
     }
 
     .projects{
-        background-image: url('../assets/images/my-img.jpeg');
-        /* background-size: auto; */
+        /* background-image: url('../assets/images/my-img.jpeg'); */
+        background-size: auto;
+        background-repeat: no-repeat;
+        object-fit: contain;
+        /* opacity: 0.2; */
         height: 400px;
         position: relative;
         margin-top: 50px;
@@ -61,11 +65,12 @@ export default {
     }
 
     .projects:hover{
-        filter: grayscale(0);
+        filter: none;
     }
 
     .viewtext{
         font-size: 17px;
+        opacity: 1;
     }
 
     @media only screen and (max-width: 480px) {

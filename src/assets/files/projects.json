@@ -3,7 +3,7 @@
         {
             "title": "Royalnet",
             "about": "Royalnet is an online affilite marketing site that pays users for performing tasks, that is advertising products and services.",
-            "background": "@/assets/images/theme-colour.png",
+            "background": "royalnet.png",
             "link": "https://royalnet.com.ng/",
             "stack": [
                 { "id": 1, "name": "HTML"},
@@ -17,6 +17,7 @@
         {
             "title": "My weather forecast",
             "about": "A weather forecast web app that tells the current weather.",
+            "background": "weather.png",
             "link": "https://my-weather-forcast.netlify.app",
             "stack": [
                 { "id": 1, "name": "HTML"},

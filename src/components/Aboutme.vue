@@ -140,8 +140,12 @@ export default {
     margin-left: 10px;
 }
 
+.front-btn:hover{
+    color: chartreuse;
+}
+
 .front-link{
-   border: chartreuse 1px solid;
+    border: chartreuse 1px solid;
     border-radius: 1px;
     padding: 15px 20px;
     /* margin-top: 20px; */

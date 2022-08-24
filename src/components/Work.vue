@@ -25,4 +25,8 @@ export default {
     width: fit-content;
     color: #727376;
 }
+
+.contact:hover{
+    color: chartreuse;
+}
 </style>
