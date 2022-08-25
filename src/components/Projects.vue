@@ -1,5 +1,6 @@
 <template>
-    <div class="container wrapper pb-5" v-for="project in my_projects" :key="project.id">
+    <h3 class="sub-header pt-5 container">Projects</h3>
+    <div class="container wrapper pb-5 pt-3" v-for="project in my_projects" :key="project.id"  id="project">
         <div class="card projects" :style="{backgroundImage: 'url(' + require('../assets/images/' + project.background) + ')'}" >
             <div>
                 <div>
@@ -33,7 +34,7 @@ export default {
     setup() {
         let my_projects = ref(projects.works)
         // let background = ref(work.background)
-        console.log(my_projects)
+        // console.log(my_projects)
 
         return{ my_projects }
     }
@@ -112,7 +113,7 @@ export default {
             left: 200px;
             right: 0;
             color: white;
-            backdrop-filter: saturate(180%) blur(5px);
+            backdrop-filter: saturate(180%) blur(5px) ;
             border: 1px solid green;
             padding: 10px;
         }
@@ -167,8 +168,12 @@ export default {
    }
 
    .stack-span{
-    margin-left: 20px;
-    display: inline-flex;  
-    flex-wrap: wrap;
+        margin-left: 20px;
+        display: inline-flex;  
+        flex-wrap: wrap;
    }
+
+   .sub-header{
+        color: chartreuse;
+    }
 </style>

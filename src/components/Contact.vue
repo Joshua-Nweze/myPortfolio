@@ -1,7 +1,7 @@
 <template>
-  <div class="container pt-2 pb-5">
+  <div class="container pt-2 pb-5" id="contact">
       <div class="row text-center">
-        <h3 class="col-lg-12 text-center">Get in touch</h3>
+        <h3 class="col-lg-12 text-center sub-header">Get in touch</h3>
         <div>
           Send me a mail. I am looking forward to hearing from you.
           <a href="mailto:joshuanweze270@gmail.com" class="text-center d-flex justify-content-center"><div class="mt-3 send-mail"><i class="bi bi-envelope"></i> Send me an e-mail</div></a>
@@ -41,5 +41,9 @@ export default {
 .social-icon{
     margin-right: 15px;
     color: chartreuse;
+}
+
+.sub-header{
+  color: chartreuse;
 }
 </style>

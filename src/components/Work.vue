@@ -1,9 +1,9 @@
 <template>
-  <div class="container pb-5 text-center">
-    <div>Work</div>
+  <div class="container pb-5 pt-5 text-center">
+    <h3 class="sub-header">Work</h3>
     <p>I am currently looking for a frontend or junior frontend developer role </p>
 
-    <a href="" class="d-flex justify-content-center"><div class="contact mt-3 text-center">Contact me</div></a>
+    <!-- <a href="" class="d-flex justify-content-center"><div class="contact mt-3 text-center">Contact me</div></a> -->
   </div>
 </template>
 
@@ -15,7 +15,7 @@ export default {
 </script>
 
 <style scoped>
-.contact{
+/* .contact{
     border: chartreuse 1px solid;
     border-radius: 1px;
     padding: 15px 20px;
@@ -24,9 +24,13 @@ export default {
     margin-left: 10px;
     width: fit-content;
     color: #727376;
-}
+} */
 
 .contact:hover{
     color: chartreuse;
+}
+
+.sub-header{
+  color: chartreuse;
 }
 </style>

@@ -2,7 +2,7 @@
 
   <!-- <div class="justify-contact-start">ddl,mlas , s</div> -->
 
-<nav class="nav navbar navbar-expand-lg" id="navbar">
+<nav class="nav navbar navbar-expand-lg fixed-top" id="navbar">
   <div class="container">
     <a class="navbar-brand nav-link addChartreuse" href="#">JN</a>
 
@@ -14,13 +14,13 @@
       <div class="navitems">
         <ul class="navbar-nav justify-content-end">
         <li class="nav-item">
-          <a class="nav-link addChartreuse" aria-current="page" href="#">Home</a>
+          <a class="nav-link addChartreuse" aria-current="page" href="#about">About</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link addChartreuse" href="#">Features</a>
+          <a class="nav-link addChartreuse" href="#project">Project</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link addChartreuse" href="#">Pricing</a>
+          <a class="nav-link addChartreuse" href="#contact">Contact</a>
         </li>
       </ul>
       </div>
@@ -31,8 +31,37 @@
 </template>
 
 <script>
+import { ref } from '@vue/reactivity';
 export default {
   name: 'Header',
+  setup() {
+    let lastScrollY = ref(window.scrollY);
+
+  //   window.onscroll = function() {
+  //    var currentScrollPos = window.pageYOffset;
+  //    if (prevScrollpos > currentScrollPos) {
+  //      document.getElementById("navbar").style.top = "0";
+  //    } else {
+  //      document.getElementById("navbar").style.top = "-70px";
+  //    }
+  //    prevScrollpos = currentScrollPos;
+  // }
+
+  window.addEventListener('scroll', () => {
+    if (lastScrollY > window.scrollY) {
+      // console.log(lastScrollY, window.scrollY);
+      // console.log('going up!');
+      navbar.style.top = "0"
+    } else if (lastScrollY < window.scrollY) {
+      // console.log('going down!');
+      navbar.style.top = "-70px"
+    }
+
+    lastScrollY = window.scrollY
+  })
+
+  return { lastScrollY }
+  }
 
 
 }
@@ -42,6 +71,11 @@ export default {
   nav{
     text-align: center;
     background-color: #0a192f;
+  }
+
+  .navbar{
+    transition: 0.5s;
+    /* position: fixed; */
   }
 
   .navbar-brand{

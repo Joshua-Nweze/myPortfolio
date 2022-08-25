@@ -2,25 +2,25 @@
   <div class="wrapper">
     <div class="pt-5 pb-5 container text-center">
 
-      <div>Hi there 👋🏽, my name is</div>
+      <div class="pt-5">Hi there 👋🏽, my name is</div>
       <div class="addChartreuse name">Joshua Nweze</div>
       <div>I am a front end developer</div>
 
       <div class="pt-5">
         <router-link to="/resume">ee</router-link>
         <a href="" target="_blank"><span class="front-btn">Resume</span></a>
-        <a href=""><span class="front-btn">Contact</span></a>
+        <a href="#contact"><span class="front-btn">Contact</span></a>
       </div>
 
 
     </div>
 
-    <div class="pt-5 container">
+    <div class="pt-5 container"  id="about">
       <div class="row justify-content-center container">
       
           <div class="">
             <div class="row">
-              <div class="">About me</div>
+              <h3 class="pt-5 sub-header">About me</h3>
               
             </div>
           </div>
@@ -165,5 +165,9 @@ export default {
  width: 200px;
  border-top: 2px solid burlywood;
  height: 10px;
+}
+
+.sub-header{
+  color: chartreuse;
 }
 </style>

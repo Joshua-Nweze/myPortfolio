@@ -23,7 +23,20 @@
                 { "id": 1, "name": "HTML"},
                 { "id": 2, "name": "CSS"},
                 { "id": 3, "name": "JavaScript"},
-                { "id": 4, "name": "Openweather API"}
+                { "id": 4, "name": "Openweather API"},
+                { "id": 5, "name": "Bootstrap"}
+            ]
+        },
+        {
+            "title": "Todo List",
+            "about": "A todo web app that keeps tracks of tasks to be done.",
+            "background": "dark-bg.jpg",
+            "link": "https://makeatodo.netlify.app",
+            "stack": [
+                { "id": 1, "name": "HTML"},
+                { "id": 2, "name": "CSS"},
+                { "id": 3, "name": "JavaScript"},
+                { "id": 4, "name": "Bootstrap"}
             ]
         }
     ]
