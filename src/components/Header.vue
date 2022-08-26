@@ -28,7 +28,7 @@
     </div>
   </div>
 </nav>
-</template>
+</template> 
 
 <script>
 import { ref } from '@vue/reactivity';
@@ -37,30 +37,19 @@ export default {
   setup() {
     let lastScrollY = ref(window.scrollY);
 
-  //   window.onscroll = function() {
-  //    var currentScrollPos = window.pageYOffset;
-  //    if (prevScrollpos > currentScrollPos) {
-  //      document.getElementById("navbar").style.top = "0";
-  //    } else {
-  //      document.getElementById("navbar").style.top = "-70px";
-  //    }
-  //    prevScrollpos = currentScrollPos;
-  // }
 
-  window.addEventListener('scroll', () => {
-    if (lastScrollY > window.scrollY) {
-      // console.log(lastScrollY, window.scrollY);
-      // console.log('going up!');
-      navbar.style.top = "0"
-    } else if (lastScrollY < window.scrollY) {
-      // console.log('going down!');
-      navbar.style.top = "-70px"
-    }
+    window.addEventListener('scroll', () => {
+      if (lastScrollY > window.scrollY) {
+        navbar.style.top = "0"
+      } else if (lastScrollY < window.scrollY) {
+        navbar.style.top = "-70px"
+      }
 
-    lastScrollY = window.scrollY
-  })
-
-  return { lastScrollY }
+      lastScrollY = window.scrollY
+    })
+    
+    return { lastScrollY }
+    
   }
 
 

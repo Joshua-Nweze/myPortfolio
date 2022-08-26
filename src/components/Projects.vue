@@ -1,6 +1,6 @@
 <template>
-    <h3 class="sub-header pt-5 container">Projects</h3>
-    <div class="container wrapper pb-5 pt-3" v-for="project in my_projects" :key="project.id"  id="project">
+    <h3 class="sub-header pt-5 container"  id="project">Projects</h3>
+    <div class="container wrapper pb-5 pt-3" v-for="project in my_projects" :key="project.id" >
         <div class="card projects" :style="{backgroundImage: 'url(' + require('../assets/images/' + project.background) + ')'}" >
             <div>
                 <div>
