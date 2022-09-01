@@ -2,7 +2,7 @@
 
   <!-- <div class="justify-contact-start">ddl,mlas , s</div> -->
 
-<nav class="nav navbar navbar-expand-lg fixed-top" id="navbar">
+<nav class="nav navbar navbar-expand-lg fixed-top" id="navbar" >
   <div class="container">
     <a class="navbar-brand nav-link addChartreuse" href="#">JN</a>
 
@@ -21,6 +21,9 @@
         </li>
         <li class="nav-item">
           <a class="nav-link addChartreuse" href="#contact">Contact</a>
+        </li>
+        <li class="nav-item resume ml-5 mr-5">
+          <a class="nav-link addChartreuse" href="#">Resume</a>
         </li>
       </ul>
       </div>
@@ -47,9 +50,13 @@ export default {
 
       lastScrollY = window.scrollY
     })
-    
+
+    window.addEventListener('click', () => {
+      document.getElementById("navbarNavDropdown").classList.remove("show");
+    })
+
     return { lastScrollY }
-    
+
   }
 
 
@@ -87,5 +94,31 @@ export default {
   
   .bi{
     color: chartreuse !important;
+  }
+
+  .resume{
+    border: 1px solid chartreuse;
+    padding: 0 10px;
+    /* margin: 0 40px; */
+  }
+
+  .resume:hover{
+    background-color: rgb(24, 48, 1);
+  }
+
+  @media only screen and (max-width: 480px) {
+    .resume{
+      border: 1px solid chartreuse;
+      padding: 0 10px;
+      margin: 0 50px;
+    }
+  }
+
+  @media only screen and (min-width: 481px) and (max-width: 1023px) {
+    .resume{
+      border: 1px solid chartreuse;
+      padding: 0 10px;
+      margin: 0 200px;
+    }
   }
 </style>

@@ -8,7 +8,7 @@
           <div class="pt-2">
             <a href="https://twitter.com/TheJosh_N" class="social-icon" target="_blank"><span><i class="bi bi-twitter fs-3"></i></span></a>
             <a href="https://github.com/Joshua-Nweze" class="social-icon" target="_blank"><span><i class="bi bi-github fs-3"></i></span></a>
-            <a href="https://www.linkedin.com/in/joshua-nweze-a1a8941ba/" class="social-icon" target="_blank"><span><i class="bi bi-linkedin fs-3"></i></span></a>
+            <a href="https://www.linkedin.com/in/joshuanweze" class="social-icon" target="_blank"><span><i class="bi bi-linkedin fs-3"></i></span></a>
           </div>
         </div>
       </div>
@@ -45,5 +45,5 @@ export default {
 
 .sub-header{
   color: chartreuse;
-}
+} 
 </style>

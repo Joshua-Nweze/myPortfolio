@@ -8,8 +8,9 @@
 
       <div class="pt-5">
         <router-link to="/resume">ee</router-link>
-        <a href="" target="_blank"><span class="front-btn">Resume</span></a>
+        <a href="../assets/files/resume.pdf" target="_blank"><span class="front-btn">Resume</span></a>
         <a href="#contact"><span class="front-btn">Contact</span></a>
+        <a href="resume.pdf">try</a>
       </div>
 
 
@@ -79,9 +80,6 @@ export default {
     filter: none;
   }
 
-  /* .link-marg{
-    margin-top: 10px;
-  } */
 }
 
 @media only screen and (min-width: 481px) and (max-width: 1023px) {
