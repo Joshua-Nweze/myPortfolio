@@ -23,7 +23,7 @@
         </div>
     </div>
 
-    <!-- <span class="d-flex justify-content-center addChartreuse mb-5">View more projects</span> -->
+    <!-- <span class="d-flex justify-content-center addChartreuse mb-5">View more projects</span> --> 
     
 </template>
 
@@ -112,7 +112,7 @@ export default {
         .project-details{
             position: absolute;
             top: 100px;
-            left: 200px;
+            left: 200px;    
             right: 0;
             color: white;
             backdrop-filter: saturate(180%) blur(5px) ;

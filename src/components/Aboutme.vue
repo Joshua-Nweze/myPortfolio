@@ -4,7 +4,7 @@
 
       <div class="pt-5">Hi there 👋🏽, my name is</div>
       <div class="addChartreuse name">Joshua Nweze</div>
-      <div>I am a front end developer</div>
+      <div>I am a front end web developer</div>
 
       <div class="pt-5">
         <router-link to="/resume">ee</router-link>
