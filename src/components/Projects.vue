@@ -5,16 +5,24 @@
             <div>
                 <div>
                     <a :href="project.link" target="_blank">
-                    <div class="view p-2 text-center">
-                        <i class="bi bi-eye"></i><br>
-                        <span class="viewtext">View</span>
+                        <div class="view p-2 text-center">
+                            <i class="bi bi-eye"></i><br>
+                            <span class="viewtext">View</span>
+                        </div>
+                    </a>
+
+                    <a :href="project.github" target="_blank">
+                        <div class="github-view p-2 text-center">
+                            <i class="bi bi-github"></i><br>
+                            <span class="viewtext">Github</span>
+                        </div>
+                    </a>
+
+                    <div class="project-details text-end">
+                        <p class="work-title">{{ project.title }}</p>
+                        <p>{{ project.about }}</p>
+                        <span v-for="stack in project.stack" :key="stack.id" class="stack-span">{{stack.name}}</span> 
                     </div>
-                </a>
-                <div class="project-details text-end">
-                    <p class="work-title">{{ project.title }}</p>
-                    <p>{{ project.about }}</p>
-                    <span v-for="stack in project.stack" :key="stack.id" class="stack-span">{{stack.name}}</span> 
-                </div>
                 </div>
                 <img :src="project.background" alt="">
                 <!-- <img src="../assets/images/theme-colour.png" alt=""> -->
@@ -92,7 +100,6 @@ export default {
         .work-title{
             font-size: 20px;
         }
-
         
         .view{
             position: absolute;
@@ -104,7 +111,19 @@ export default {
             backdrop-filter: blur(5px);
             border: 1px solid green;
             z-index: 999;
-    }
+        }
+
+        .github-view{
+            position: absolute;
+            top: 5px;
+            right: 80px;
+            color: white;
+            font-size: 20px;
+            line-height: 10px;
+            backdrop-filter: blur(5px);
+            border: 1px solid green;
+            z-index: 999;
+        }
 
    }
 
@@ -123,12 +142,23 @@ export default {
         .work-title{
             font-size: 25px;
         }
-
         
         .view{
             position: absolute;
             top: 5px;
             right: 20px;
+            color: white;
+            font-size: 40px;
+            line-height: 10px;
+            backdrop-filter: blur(5px);
+            border: 1px solid green;
+            z-index: 999;
+        }
+
+        .github-view{
+            position: absolute;
+            top: 5px;
+            right: 80px;
             color: white;
             font-size: 40px;
             line-height: 10px;
@@ -159,6 +189,18 @@ export default {
             position: absolute;
             top: 5px;
             right: 20px;
+            color: white;
+            font-size: 40px;
+            line-height: 10px;
+            backdrop-filter: blur(5px);
+            border: 1px solid green;
+            z-index: 999;
+        }
+
+        .github-view{
+            position: absolute;
+            top: 5px;
+            right: 80px;
             color: white;
             font-size: 40px;
             line-height: 10px;

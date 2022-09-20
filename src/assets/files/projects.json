@@ -5,6 +5,7 @@
             "about": "Royalnet is an online affilite marketing site that pays users for performing tasks, that is advertising products and services.",
             "background": "royalnet.png",
             "link": "https://royalnet.com.ng/",
+            "github": "https://github.com/Joshua-Nweze/royalnet",
             "stack": [
                 { "id": 1, "name": "HTML"},
                 { "id": 2, "name": "CSS"},
@@ -19,6 +20,7 @@
             "about": "A weather forecast web app that tells the current weather.",
             "background": "weather.png",
             "link": "https://my-weather-forcast.netlify.app",
+            "github": "https://github.com/Joshua-Nweze/my-weather-forcast",
             "stack": [
                 { "id": 1, "name": "HTML"},
                 { "id": 2, "name": "CSS"},
@@ -32,6 +34,7 @@
             "about": "A todo web app that keeps tracks of tasks to be done.",
             "background": "dark-bg.jpg",
             "link": "https://makeatodo.netlify.app",
+            "github": "https://github.com/Joshua-Nweze/To-do-app",
             "stack": [
                 { "id": 1, "name": "HTML"},
                 { "id": 2, "name": "CSS"},
