@@ -23,7 +23,8 @@
           <a class="nav-link addChartreuse" href="#contact">Contact</a>
         </li>
         <li class="nav-item resume ml-5 mr-5">
-          <a class="nav-link addChartreuse" href="#">Resume</a>
+          <a class="nav-link addChartreuse" href="resume.pdf" type="pdf">Resume</a>
+          <!-- <a href="resume.pdf" target="_blank" rel="noopener noreferrer">res</a> -->
         </li>
       </ul>
       </div>

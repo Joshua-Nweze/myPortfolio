@@ -1,12 +1,12 @@
 <template>
-    <h3 class="sub-header pt-5 container"  id="project">Projects</h3>
-    <div class="container wrapper pb-5 pt-3" v-for="project in my_projects.slice(0, 3)" :key="project.id" >
-        <div class="card projects" :style="{backgroundImage: 'url(' + require('../assets/images/' + project.background) + ')'}" >
+    <h3 class="sub-header pt-5 container wrapper" id="project">Projects</h3>
+    <div class="container wrapper pt-3" v-for="project in my_projects.slice(0, 4)" :key="project.id" >
+        <div class="card projects col-lg-9" :style="{backgroundImage: 'url(' + require('../assets/images/' + project.background) + ')'}" >
             <div>
                 <div>
-                    <a :href="project.link" target="_blank">
+                    <!-- <a :href="project.link" target="_blank">
                         <div class="view p-2 text-center">
-                            <i class="bi bi-eye"></i><br>
+                            <i class="bi bi-link-45deg"></i><br>
                             <span class="viewtext">View</span>
                         </div>
                     </a>
@@ -16,17 +16,26 @@
                             <i class="bi bi-github"></i><br>
                             <span class="viewtext">Github</span>
                         </div>
-                    </a>
+                    </a> -->
 
                     <div class="project-details text-end">
                         <p class="work-title">{{ project.title }}</p>
-                        <p>{{ project.about }}</p>
+                        <p class="abour-project">{{ project.about }}</p>
                         <span v-for="stack in project.stack" :key="stack.id" class="stack-span">{{stack.name}}</span> 
+                        <br>
+                        
+                        <span>
+                            <a :href="project.github" class="stack-span mt-4" target="_blank">
+                                <i class="bi bi-github"></i><br>
+                            </a>
+                        
+                            <a :href="project.link" class="stack-span mt-4" target="_blank">
+                                <i class="bi bi-link-45deg"></i><br>
+                            </a>
+                        </span>
+                        
                     </div>
                 </div>
-                <img :src="project.background" alt="">
-                <!-- <img src="../assets/images/theme-colour.png" alt=""> -->
-                <img />
             </div>
         </div>
     </div>
@@ -53,6 +62,14 @@ export default {
 </script>
 
 <style scoped>
+    a{
+        color: white;
+    }
+
+    a:hover{
+        color: chartreuse;
+    }
+
     .wrapper{
         margin-top: 20px;
         background-color: #0f2443;
@@ -64,7 +81,6 @@ export default {
     }
 
     .projects{
-        /* background-image: url('../assets/images/my-img.jpeg'); */
         background-size: auto;
         background-repeat: no-repeat;
         object-fit: contain;
@@ -73,10 +89,15 @@ export default {
         position: relative;
         margin-top: 50px;
         filter: grayscale(100%);
+        /* backdrop-filter: blur(5px); */
     }
 
     .projects:hover{
         filter: none;
+    }
+
+    .about-project .stack-span{
+        font-size: 16px;
     }
 
     .viewtext{
@@ -130,8 +151,8 @@ export default {
    @media only screen and (min-width: 481px) and (max-width: 1023px) {
         .project-details{
             position: absolute;
-            top: 100px;
-            left: 200px;    
+            top: 80px;
+            left: 180px;    
             right: 0;
             color: white;
             backdrop-filter: saturate(180%) blur(5px) ;
@@ -179,6 +200,11 @@ export default {
             backdrop-filter: saturate(180%) blur(5px);
             border: 1px solid green;
             padding: 20px;
+        }
+
+        .wrapper{
+            display: flex;
+            justify-content: center;
         }
 
         .work-title{

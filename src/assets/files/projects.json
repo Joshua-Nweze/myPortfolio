@@ -30,6 +30,20 @@
             ]
         },
         {
+            "title": "Breakarecord",
+            "about": "Breakarecord (break a record) is designed to keep record of time taken to complete a specific task,    records can be created, updated and deleted",
+            "background": "breakarecord.jpg",
+            "link": "https://breakarecord.netlify.app/",
+            "github": "https://github.com/Joshua-Nweze/breakarecord",
+            "stack": [
+                { "id": 1, "name": "HTML" },
+                { "id": 2, "name": "CSS" },
+                { "id": 3, "name": "Bootstrap" },
+                { "id": 4, "name": "JavaScript" },
+                { "id": 5, "name": "VueJs" }
+            ]
+        },
+        {
             "title": "Todo List",
             "about": "A todo web app that keeps tracks of tasks to be done.",
             "background": "dark-bg.jpg",
@@ -41,9 +55,6 @@
                 { "id": 3, "name": "JavaScript"},
                 { "id": 4, "name": "Bootstrap"}
             ]
-        },
-        {
-            "title": "Breakarecord"
         }
     ]
 }

@@ -15,6 +15,13 @@ export default {
 </script>
 
 <style scoped>
+.nav-link{
+  background-color: #0f2443 !important;
+}
+
+button .nav-link{
+  font-size: 10px;
+}
 /* .contact{
     border: chartreuse 1px solid;
     border-radius: 1px;
