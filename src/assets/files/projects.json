@@ -5,7 +5,7 @@
             "about": "Royalnet is an online affilite marketing site that pays users for performing tasks, that is advertising products and services.",
             "background": "royalnet.png",
             "link": "https://royalnet.com.ng/",
-            "github": "https://github.com/Joshua-Nweze/royalnet",
+            "year": 2022,
             "stack": [
                 { "id": 1, "name": "HTML"},
                 { "id": 2, "name": "CSS"},
@@ -21,6 +21,7 @@
             "background": "weather.png",
             "link": "https://my-weather-forcast.netlify.app",
             "github": "https://github.com/Joshua-Nweze/my-weather-forcast",
+            "year": 2022,
             "stack": [
                 { "id": 1, "name": "HTML"},
                 { "id": 2, "name": "CSS"},
@@ -31,10 +32,11 @@
         },
         {
             "title": "Breakarecord",
-            "about": "Breakarecord (break a record) is designed to keep record of time taken to complete a specific task,    records can be created, updated and deleted",
+            "about": "Breakarecord (break a record) is designed to keep record of time taken to complete a specific task,    records can be created, updated and deleted.",
             "background": "breakarecord.jpg",
             "link": "https://breakarecord.netlify.app/",
             "github": "https://github.com/Joshua-Nweze/breakarecord",
+            "year": 2022,
             "stack": [
                 { "id": 1, "name": "HTML" },
                 { "id": 2, "name": "CSS" },
@@ -49,6 +51,21 @@
             "background": "dark-bg.jpg",
             "link": "https://makeatodo.netlify.app",
             "github": "https://github.com/Joshua-Nweze/To-do-app",
+            "year": 2022,
+            "stack": [
+                { "id": 1, "name": "HTML"},
+                { "id": 2, "name": "CSS"},
+                { "id": 3, "name": "JavaScript"},
+                { "id": 4, "name": "Bootstrap"}
+            ]
+        },
+        {
+            "title": "Sing website theme",
+            "about": "Sing is a free website theme. You can use them for any purpose, even for commercial projects.",
+            "background": "sing-landing.jpg",
+            "link": "landing-sing.netlify.app/",
+            "github": "https://github.com/Joshua-Nweze/Landing",
+            "year": 2022,
             "stack": [
                 { "id": 1, "name": "HTML"},
                 { "id": 2, "name": "CSS"},

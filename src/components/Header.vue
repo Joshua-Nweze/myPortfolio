@@ -4,7 +4,7 @@
 
 <nav class="nav navbar navbar-expand-lg fixed-top" id="navbar" >
   <div class="container">
-    <a class="navbar-brand nav-link addChartreuse" href="#">JN</a>
+    <a class="navbar-brand nav-link addChartreuse" to="/#">JN</a>
 
     <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
       <span><i class="bi bi-list-nested"></i></span>
@@ -23,8 +23,7 @@
           <a class="nav-link addChartreuse" href="#contact">Contact</a>
         </li>
         <li class="nav-item resume ml-5 mr-5">
-          <a class="nav-link addChartreuse" href="resume.pdf" type="pdf">Resume</a>
-          <!-- <a href="resume.pdf" target="_blank" rel="noopener noreferrer">res</a> -->
+          <a class="nav-link addChartreuse" href="" download="resume.pdf">Resume</a>
         </li>
       </ul>
       </div>

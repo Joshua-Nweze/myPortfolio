@@ -1,8 +1,8 @@
 <template>
   <Header />
   <Aboutme />
+  <!-- <Work /> -->
   <Projects />
-  <Work />
   <Contact />
   <Footer />
 </template>

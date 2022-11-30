@@ -7,10 +7,8 @@
       <div>I am a front end web developer</div>
 
       <div class="pt-5">
-        <router-link to="/resume">ee</router-link>
-        <a href="../assets/files/resume.pdf" target="_blank"><span class="front-btn">Resume</span></a>
+        <a href="./resume.pdf" target="_blank"><span class="front-btn">Resume</span></a>
         <a href="#contact"><span class="front-btn">Contact</span></a>
-        <a href="resume.pdf">try</a>
       </div>
 
 
@@ -28,9 +26,9 @@
 
         <div class="col-sm-12 col-md-8 col-lg-8 pt-2">
 
-            <p>Hello! My name is Joshua, I am a frontend developer and I enjoy creating awesome useful things, I am a fan of solving problems and creating things that makes life easier. My interest in computers started 2015 when I first used MS-Word, I created pretty designs with it and enjoyed creating fancy letterhead for my school and for other people. Later on, I was introduced to web development and I loved it. </p>
+            <p>Hello! My name is Joshua, I am a frontend developer and I enjoy creating awesome useful things that solve problems. </p>
 
-            <p>Fast-forward to today, I've completed some personal projects and few for clients. I am still on  the journey of learning and discovering new things in the world of tech.</p>
+            <p>I've completed some projects and few for clients, some which I did personally and worked as a team. I am still on  the journey of learning and discovering new things in the world of tech.</p>
 
             <p>Other of my hobbies include reading, discovering and learning new things, playing computer games, movies and music.</p>
 
@@ -44,6 +42,8 @@
                     <li>HTML</li>
                 </ul>
             </p>
+
+            <p>Currently, I am learning React. </p>
         </div>
         <div class="col-sm-12 col-md-4 col-lg-4 pt-2 text-center"><img src="../assets/images/my-img.jpeg" class="my-image" alt=""></div>
       </div>
