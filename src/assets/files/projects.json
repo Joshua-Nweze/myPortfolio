@@ -1,21 +1,6 @@
 {
     "works" :[
         {
-            "title": "Royalnet",
-            "about": "Royalnet is an online affilite marketing site that pays users for performing tasks, that is advertising products and services.",
-            "background": "royalnet.png",
-            "link": "https://royalnet.com.ng/",
-            "year": 2022,
-            "stack": [
-                { "id": 1, "name": "HTML"},
-                { "id": 2, "name": "CSS"},
-                { "id": 3, "name": "Bootstrap"},
-                { "id": 4, "name": "JavaScript"},
-                { "id": 5, "name": "PHP"},
-                { "id": 6, "name": "MySQL"}
-            ]
-        },
-        {
             "title": "My weather forecast",
             "about": "A weather forecast web app that tells the current weather.",
             "background": "weather.png",
@@ -46,6 +31,21 @@
             ]
         },
         {
+            "title": "Royalnet",
+            "about": "Royalnet is an online affilite marketing site that pays users for performing tasks, that is advertising products and services.",
+            "background": "royalnet.png",
+            "link": "https://royalnet.com.ng/",
+            "year": 2022,
+            "stack": [
+                { "id": 1, "name": "HTML"},
+                { "id": 2, "name": "CSS"},
+                { "id": 3, "name": "Bootstrap"},
+                { "id": 4, "name": "JavaScript"},
+                { "id": 5, "name": "PHP"},
+                { "id": 6, "name": "MySQL"}
+            ]
+        },
+        {
             "title": "Todo List",
             "about": "A todo web app that keeps tracks of tasks to be done.",
             "background": "dark-bg.jpg",
@@ -63,7 +63,7 @@
             "title": "Sing website theme",
             "about": "Sing is a free website theme. You can use them for any purpose, even for commercial projects.",
             "background": "sing-landing.jpg",
-            "link": "landing-sing.netlify.app/",
+            "link": "https://landing-sing.netlify.app/",
             "github": "https://github.com/Joshua-Nweze/Landing",
             "year": 2022,
             "stack": [

@@ -1,10 +1,7 @@
 <template>
-
-  <!-- <div class="justify-contact-start">ddl,mlas , s</div> -->
-
 <nav class="nav navbar navbar-expand-lg fixed-top" id="navbar" >
   <div class="container">
-    <a class="navbar-brand nav-link addChartreuse" to="/#">JN</a>
+    <router-link class="navbar-brand nav-link addChartreuse" to="/"  @click="scrollTo('about-intro')">JN</router-link>
 
     <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
       <span><i class="bi bi-list-nested"></i></span>
@@ -14,13 +11,13 @@
       <div class="navitems">
         <ul class="navbar-nav justify-content-end">
         <li class="nav-item">
-          <a class="nav-link addChartreuse" aria-current="page" href="#about">About</a>
+          <router-link class="nav-link addChartreuse" to="/" @click="scrollTo('about')">About</router-link>
         </li>
         <li class="nav-item">
-          <a class="nav-link addChartreuse" href="#project">Project</a>
+          <router-link class="nav-link addChartreuse" to="/" @click="scrollTo('project')">Project</router-link>
         </li>
         <li class="nav-item">
-          <a class="nav-link addChartreuse" href="#contact">Contact</a>
+          <router-link class="nav-link addChartreuse" to="/" @click="scrollTo('contact')">Contact</router-link>
         </li>
         <li class="nav-item resume ml-5 mr-5">
           <a class="nav-link addChartreuse" href="" download="resume.pdf">Resume</a>
@@ -55,7 +52,15 @@ export default {
       document.getElementById("navbarNavDropdown").classList.remove("show");
     })
 
-    return { lastScrollY }
+    function scrollTo(id) {
+      setTimeout(() => {
+        let a = document.getElementById(id)
+        a.scrollIntoView()
+      }, 100)
+    }
+
+
+    return { lastScrollY, scrollTo }
 
   }
 

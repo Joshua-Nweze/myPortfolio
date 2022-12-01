@@ -1,6 +1,11 @@
 <template>
-  <!-- <Header /> -->
-  <Archive />
+  <Header />
+  <!-- <div class="mt-4">
+    <router-link class="bk-to-home" to="/">Back to home</router-link>
+  </div> -->
+  <div class="archive">
+    <Archive/>
+  </div>
   <div class="footer-div">
     <Footer />
   </div>
@@ -26,4 +31,23 @@ export default {
 .footer-div{
   margin-top: 200px;
 }
+
+.archive{
+  margin-top: 100px;
+}
+
+.bk-to-home{
+  margin: 20px 0 0 20px;
+  color: #727376 !important;
+}
+.bk-to-home:hover{
+  color: chartreuse !important;
+}
+
+/* @media only screen and (max-width: 480px) {
+  .archive{
+  margin-top: 30px;
+  }
+} */
+
 </style>

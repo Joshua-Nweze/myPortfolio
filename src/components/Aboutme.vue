@@ -1,5 +1,5 @@
 <template>
-  <div class="wrapper">
+  <div class="wrapper" id="about-intro">
     <div class="pt-5 pb-5 container text-center">
 
       <div class="pt-5">Hi there 👋🏽, my name is</div>
@@ -8,13 +8,13 @@
 
       <div class="pt-5">
         <a href="./resume.pdf" target="_blank"><span class="front-btn">Resume</span></a>
-        <a href="#contact"><span class="front-btn">Contact</span></a>
+        <router-link to="/" @click="scrollTo"><span class="front-btn">Contact</span></router-link>
       </div>
 
 
     </div>
 
-    <div class="pt-5 container"  id="about">
+    <div class="pt-5 container" id="about">
       <div class="row justify-content-center container">
       
           <div class="">
@@ -57,7 +57,14 @@ export default {
   name: "Aboutme",
 
   setup() {
+    function scrollTo() {
+      setTimeout(() => {
+        let scrollId = document.getElementById('contact')
+        scrollId.scrollIntoView()
+      }, 100)
+    }
 
+    return { scrollTo }
   }
 };
 </script>
