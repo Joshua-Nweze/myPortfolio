@@ -54,8 +54,8 @@ export default {
 
     function scrollTo(id) {
       setTimeout(() => {
-        let a = document.getElementById(id)
-        a.scrollIntoView()
+        let scrollId = document.getElementById(id)
+        scrollId.scrollIntoView()
       }, 100)
     }
 
