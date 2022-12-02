@@ -7,7 +7,7 @@
       <div>I am a front end web developer</div>
 
       <div class="pt-5">
-        <a href="./resume.pdf" target="_blank"><span class="front-btn">Resume</span></a>
+        <a href="https://joshuanwezeresume.netlify.app/resume.pdf" target="_blank"><span class="front-btn">Resume</span></a>
         <router-link to="/" @click="scrollTo"><span class="front-btn">Contact</span></router-link>
       </div>
 

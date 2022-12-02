@@ -3,7 +3,7 @@
   <!-- <div class="mt-4">
     <router-link class="bk-to-home" to="/">Back to home</router-link>
   </div> -->
-  <div class="archive">
+  <div class="archive-div">
     <Archive/>
   </div>
   <div class="footer-div">
@@ -32,7 +32,7 @@ export default {
   margin-top: 200px;
 }
 
-.archive{
+.archive-div{
   margin-top: 100px;
 }
 

@@ -20,7 +20,7 @@
           <router-link class="nav-link addChartreuse" to="/" @click="scrollTo('contact')">Contact</router-link>
         </li>
         <li class="nav-item resume ml-5 mr-5">
-          <a class="nav-link addChartreuse" href="" download="resume.pdf">Resume</a>
+          <a class="nav-link addChartreuse" href="https://joshuanwezeresume.netlify.app/resume.pdf" target="_blank">Resume</a>
         </li>
       </ul>
       </div>
