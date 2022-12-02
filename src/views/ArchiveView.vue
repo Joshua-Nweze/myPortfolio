@@ -27,7 +27,7 @@ export default {
 }
 </script>
 
-<style scoped>
+<style>
 .footer-div{
   margin-top: 200px;
 }
@@ -42,6 +42,10 @@ export default {
 }
 .bk-to-home:hover{
   color: chartreuse !important;
+}
+
+.addChartreuse{
+  color: chartreuse;
 }
 
 /* @media only screen and (max-width: 480px) {

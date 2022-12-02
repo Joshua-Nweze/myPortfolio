@@ -32,16 +32,42 @@
 
             <p>Other of my hobbies include reading, discovering and learning new things, playing computer games, movies and music.</p>
 
-            <p>Here are a few technologies I work with:</p>
-            <p>
-                <ul type='circle'>
+            <p>Here are technologies I work with:</p>
+            <div>
+              <div class="row">
+                <div class="col-md-6 col-12"> 
+                  <h6 class="addChartreuse">Languages</h6>
+                  <ul type='circle'>
                     <li>JavaScript</li>
+                    <li>HTML &amp; CSS</li>
+                  </ul>
+                </div>
+                <div class="col-md-6 col-12">
+                  <h6 class="addChartreuse">Libraries &amp; Frameworks</h6>
+                  <ul type='circle'>
+                    <li>jQuery</li>
                     <li>VueJs</li>
                     <li>Bootstrap</li>
-                    <li>CSS</li>
-                    <li>HTML</li>
-                </ul>
-            </p>
+                  </ul>
+                </div>
+                <div class="col-md-6 col-12">
+                  <h6 class="addChartreuse">Design</h6>
+                  <ul type='circle'>
+                    <li>Figma</li>
+                  </ul>
+                </div>
+                <div class="col-md-6 col-12">
+                  <h6 class="addChartreuse">Tools &amp; Platforms</h6>
+                  <ul type='circle'>
+                    <li>Git</li>
+                    <li>VSCode</li>
+                    <li>Netlify</li>
+                    <li>Webpack</li>
+                  </ul>
+                </div>
+              </div>
+               
+            </div>
 
             <p>Currently, I am learning React. </p>
         </div>

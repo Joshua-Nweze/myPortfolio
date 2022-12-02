@@ -1,9 +1,9 @@
 <template>
     <div class="container">
-        <h1 class="d-flex justify-content-center mt-5 mb-4">Projects Archive</h1>
+        <h1 class="d-flex justify-content-center mt-5 mb-4 addChartreuse">Projects Archive</h1>
 
         <div class="row sub-head d-flex justify-content-center">
-            <div class="col-4 col-lg-2 sub-head">Project name</div>
+            <div class="col-4 col-lg-2 sub-head">Name</div>
             <div class="col-4 col-lg-2 d-none d-md-block sub-head">Year</div>
             <div class="col-4 col-lg-3 sub-head">Stack</div>
             <div class="col-4 col-lg-1 sub-head">Link(s)</div>

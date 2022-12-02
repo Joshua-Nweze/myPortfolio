@@ -3,7 +3,7 @@
       <div class="row text-center">
         <h3 class="col-lg-12 text-center sub-header">Get in touch</h3>
         <div>
-          I am looking for a frontend web developer role. <br>
+          I am looking for a frontend developer role. <br>
           Send me a mail or reach out to me on twitter or linkedin and I will get back to you as soon as possible. I am looking forward to hearing from you.
           <a href="mailto:joshuanweze270@gmail.com" class="text-center d-flex justify-content-center"><div class="mt-3 send-mail"><i class="bi bi-envelope"></i> Send me an e-mail</div></a>
           <div class="pt-2">

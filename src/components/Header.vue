@@ -104,6 +104,7 @@ export default {
   .resume{
     border: 1px solid chartreuse;
     padding: 0 10px;
+    transition: 0.3s ease-in;
     /* margin: 0 40px; */
   }
 
