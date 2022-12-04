@@ -62,6 +62,6 @@ export default{
 .sub-head{
     margin-bottom: 10px;
     font-size: 21px;
-    text-decoration: underline;
+    font-style: bold;
 }
 </style>

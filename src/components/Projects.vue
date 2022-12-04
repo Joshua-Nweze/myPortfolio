@@ -106,6 +106,7 @@ export default {
 
     .archive{
         margin-left: 6px;
+        text-decoration: underline;
     }
 
     @media only screen and (max-width: 480px) {
