@@ -1,6 +1,18 @@
 {
     "works" :[
         {
+            "title": "Galaxies Online Store",
+            "about": "A online market place (personal project).",
+            "background": "galaxies.jpg",
+            "link": "https://galaxiesstore.netlify.app/",
+            "github": "https://github.com/Joshua-Nweze/Galaxies",
+            "year": 2022,
+            "stack": [
+                { "id": 1, "name": "VueJs"},
+                { "id": 2, "name": "Bootstrap"}
+            ]
+        },
+        {
             "title": "My weather forecast",
             "about": "A weather forecast web app that tells the current weather.",
             "background": "weather.png",
@@ -23,11 +35,8 @@
             "github": "https://github.com/Joshua-Nweze/breakarecord",
             "year": 2022,
             "stack": [
-                { "id": 1, "name": "HTML" },
-                { "id": 2, "name": "CSS" },
-                { "id": 3, "name": "Bootstrap" },
-                { "id": 4, "name": "JavaScript" },
-                { "id": 5, "name": "VueJs" }
+                { "id": 1, "name": "Bootstrap" },
+                { "id": 2, "name": "VueJs" }
             ]
         },
         {
