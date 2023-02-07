@@ -1,9 +1,11 @@
 <template>
   <Header />
-  <Aboutme />
-  <!-- <Work /> -->
-  <Projects />
-  <Contact />
+  <div class="main">
+    <Aboutme />
+    <!-- <Work /> -->
+    <Projects />
+    <Contact />
+  </div>
   <Footer />
 </template>
 
@@ -28,3 +30,9 @@ export default {
   }
 }
 </script>
+
+<style>
+  .main{
+    flex-grow: 1;
+  }
+</style>

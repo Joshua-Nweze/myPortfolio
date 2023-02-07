@@ -34,6 +34,7 @@ export default {
 
 .archive-div{
   margin-top: 100px;
+  flex-grow: 1;
 }
 
 .bk-to-home{

@@ -3,7 +3,10 @@
     <router-link to="/">Home</router-link> |
     <router-link to="/about">About</router-link>
   </nav> -->
-  <router-view/>
+  <div class="body">
+    <router-view/>
+  </div>
+  
 </template>
 
 <style>
@@ -42,6 +45,12 @@ a{
   background: chartreuse; 
   border-radius: 10px;
   height: 10px;
+}
+
+.body{
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
 </style>
