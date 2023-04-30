@@ -1,7 +1,7 @@
 <template>
   <div class="container pb-5 pt-5 text-center" id="work">
     <h3 class="sub-header pt-3">Work</h3>
-    <h5 class="mb-2">Where I have worked</h5>
+    <h5 class="mb-4">Where I have worked</h5>
 
     <div class="row justify-content-center text-start mt-3">
       <div class="col-md-3 col-sm-12">
