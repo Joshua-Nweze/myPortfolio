@@ -85,11 +85,6 @@ export default {
         font-size: 15px;
     }
 
-    .viewtext{
-        font-size: 17px;
-        opacity: 1;
-    }
-
     .archive{
         margin-left: 6px;
         text-decoration: underline;
@@ -107,38 +102,13 @@ export default {
             
             background: #000;
             backdrop-filter: blur(1px) saturate(180%);
-            -webkit-backdrop-filter: blur(16px) saturate(180%);
+            -webkit-backdrop-filter: blur(1px) saturate(180%);
             background-color: rgba(11, 11, 12, 0.75);
         }
 
         .work-title{
             font-size: 20px;
         }
-        
-        .view{
-            position: absolute;
-            top: 5px;
-            right: 10px;
-            color: white;
-            font-size: 20px;
-            line-height: 10px;
-            backdrop-filter: blur(5px);
-            border: 1px solid green;
-            z-index: 999;
-        }
-
-        .github-view{
-            position: absolute;
-            top: 5px;
-            right: 80px;
-            color: white;
-            font-size: 20px;
-            line-height: 10px;
-            backdrop-filter: blur(5px);
-            border: 1px solid green;
-            z-index: 999;
-        }
-
    }
 
    @media only screen and (min-width: 481px) and (max-width: 1023px) {
@@ -153,38 +123,13 @@ export default {
 
             background: #000;
             backdrop-filter: blur(1px) saturate(180%);
-            -webkit-backdrop-filter: blur(16px) saturate(180%);
+            -webkit-backdrop-filter: blur(1px) saturate(180%);
             background-color: rgba(11, 11, 12, 0.75);
         }
 
         .work-title{
             font-size: 25px;
         }
-        
-        .view{
-            position: absolute;
-            top: 5px;
-            right: 20px;
-            color: white;
-            font-size: 40px;
-            line-height: 10px;
-            backdrop-filter: blur(5px);
-            border: 1px solid green;
-            z-index: 999;
-        }
-
-        .github-view{
-            position: absolute;
-            top: 5px;
-            right: 80px;
-            color: white;
-            font-size: 40px;
-            line-height: 10px;
-            backdrop-filter: blur(5px);
-            border: 1px solid green;
-            z-index: 999;
-        }
-
    }
 
    @media only screen and (min-width: 1024px) {
@@ -199,7 +144,7 @@ export default {
 
             background: #000;
             backdrop-filter: blur(1px) saturate(180%);
-            -webkit-backdrop-filter: blur(16px) saturate(180%);
+            -webkit-backdrop-filter: blur(1px) saturate(180%);
             background-color: rgba(11, 11, 12, 0.75);
         }
 
@@ -211,31 +156,6 @@ export default {
         .work-title{
             font-size: 30px;
         }
-        
-        .view{
-            position: absolute;
-            top: 5px;
-            right: 20px;
-            color: white;
-            font-size: 40px;
-            line-height: 10px;
-            backdrop-filter: blur(5px);
-            border: 1px solid green;
-            z-index: 999;
-        }
-
-        .github-view{
-            position: absolute;
-            top: 5px;
-            right: 80px;
-            color: white;
-            font-size: 40px;
-            line-height: 10px;
-            backdrop-filter: blur(5px);
-            border: 1px solid green;
-            z-index: 999;
-        }
-
    }
 
    .stack-span{
