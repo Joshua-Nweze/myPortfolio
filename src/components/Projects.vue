@@ -5,20 +5,6 @@
         <div class="card projects col-lg-9" :style="{backgroundImage: 'url(' + require('../assets/images/' + project.background) + ')'}" >
             <div>
                 <div>
-                    <!-- <a :href="project.link" target="_blank">
-                        <div class="view p-2 text-center">
-                            <i class="bi bi-link-45deg"></i><br>
-                            <span class="viewtext">View</span>
-                        </div>
-                    </a>
-
-                    <a :href="project.github" target="_blank">
-                        <div class="github-view p-2 text-center">
-                            <i class="bi bi-github"></i><br>
-                            <span class="viewtext">Github</span>
-                        </div>
-                    </a> -->
-
                     <div class="project-details text-end">
                         <p class="work-title">{{ project.title }}</p>
                         <p class="abour-project">{{ project.about }}</p>
@@ -112,14 +98,17 @@ export default {
     @media only screen and (max-width: 480px) {
         .project-details{
             position: absolute;
-            /* top: 100px;
-            left: 200px; */
             color: white;
-            backdrop-filter: saturate(180%) blur(5px);
             border: 1px solid green;
             height: 100%;
+            width: 100%;
             padding-top: 100px;
             padding-right: 10px;
+            
+            background: #000;
+            backdrop-filter: blur(1px) saturate(180%);
+            -webkit-backdrop-filter: blur(16px) saturate(180%);
+            background-color: rgba(11, 11, 12, 0.75);
         }
 
         .work-title{
@@ -159,9 +148,13 @@ export default {
             left: 180px;    
             right: 0;
             color: white;
-            backdrop-filter: saturate(180%) blur(5px) ;
             border: 1px solid green;
             padding: 10px;
+
+            background: #000;
+            backdrop-filter: blur(1px) saturate(180%);
+            -webkit-backdrop-filter: blur(16px) saturate(180%);
+            background-color: rgba(11, 11, 12, 0.75);
         }
 
         .work-title{
@@ -201,9 +194,13 @@ export default {
             right: 0;
             left: 300px;
             color: white;
-            backdrop-filter: saturate(180%) blur(5px);
             border: 1px solid green;
             padding: 20px;
+
+            background: #000;
+            backdrop-filter: blur(1px) saturate(180%);
+            -webkit-backdrop-filter: blur(16px) saturate(180%);
+            background-color: rgba(11, 11, 12, 0.75);
         }
 
         .wrapper{

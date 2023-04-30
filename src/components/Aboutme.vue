@@ -10,8 +10,6 @@
         <a href="https://joshuanwezeresume.netlify.app/resume.pdf" target="_blank"><span class="front-btn">Resume</span></a>
         <router-link to="/" @click="scrollTo"><span class="front-btn">Contact</span></router-link>
       </div>
-
-
     </div>
 
     <div class="pt-5 container" id="about">
@@ -69,7 +67,7 @@
                
             </div>
 
-            <p>Currently, I am learning React. </p>
+            <!-- <p>Currently, I am learning React. </p> -->
         </div>
         <div class="col-sm-12 col-md-4 col-lg-4 pt-2 text-center"><img src="../assets/images/my-img.jpeg" class="my-image" alt=""></div>
       </div>

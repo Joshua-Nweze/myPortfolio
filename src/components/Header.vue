@@ -14,7 +14,10 @@
           <router-link class="nav-link addChartreuse" to="/" @click="scrollTo('about')">About</router-link>
         </li>
         <li class="nav-item">
-          <router-link class="nav-link addChartreuse" to="/" @click="scrollTo('project')">Project</router-link>
+          <router-link class="nav-link addChartreuse" to="/" @click="scrollTo('work')">Work</router-link>
+        </li>
+        <li class="nav-item">
+          <router-link class="nav-link addChartreuse" to="/" @click="scrollTo('project')">Projects</router-link>
         </li>
         <li class="nav-item">
           <router-link class="nav-link addChartreuse" to="/" @click="scrollTo('contact')">Contact</router-link>
@@ -32,7 +35,7 @@
 
 <script>
 import { ref } from '@vue/reactivity';
-export default {
+export default{
   name: 'Header',
   setup() {
     let lastScrollY = ref(window.scrollY);

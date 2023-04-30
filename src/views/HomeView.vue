@@ -2,7 +2,7 @@
   <Header />
   <div class="main">
     <Aboutme />
-    <!-- <Work /> -->
+    <Work />
     <Projects />
     <Contact />
   </div>
