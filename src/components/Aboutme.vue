@@ -37,7 +37,8 @@
                   <h6 class="addChartreuse">Languages</h6>
                   <ul type='circle'>
                     <li>JavaScript</li>
-                    <li>HTML &amp; CSS</li>
+                    <li>HTML</li>
+                    <li>CSS</li>
                   </ul>
                 </div>
                 <div class="col-md-6 col-12">
@@ -46,6 +47,7 @@
                     <li>jQuery</li>
                     <li>VueJs</li>
                     <li>Bootstrap</li>
+                    <li>NuxtJs</li>
                   </ul>
                 </div>
                 <div class="col-md-6 col-12">
