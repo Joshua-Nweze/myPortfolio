@@ -76,6 +76,7 @@ export default {
 .nav-link{
   background-color: #0f2443 !important;
   color: #727376;
+  width: 100%;
 }
 
 .contact:hover{
