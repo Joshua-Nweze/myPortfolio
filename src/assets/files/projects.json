@@ -1,6 +1,18 @@
 {
     "works" :[
         {
+            "title": "Dictionary webapp",
+            "about": "A online dictionary for searching word definitions.",
+            "background": "dictionary.jpg",
+            "link": "https://seewords.netlify.app/",
+            "github": "https://github.com/Joshua-Nweze/WordDictionary",
+            "year": 2023,
+            "stack": [
+                { "id": 1, "name": "Nuxtjs"},
+                { "id": 2, "name": "TailwindCSS"}
+            ]
+        },
+        {
             "title": "Galaxies Online Store",
             "about": "A online market place (personal project).",
             "background": "galaxies.jpg",

@@ -48,6 +48,7 @@
                     <li>VueJs</li>
                     <li>Bootstrap</li>
                     <li>NuxtJs</li>
+                    <li>TailwindCSS</li>
                   </ul>
                 </div>
                 <div class="col-md-6 col-12">
@@ -63,6 +64,7 @@
                     <li>VSCode</li>
                     <li>Netlify</li>
                     <li>Webpack</li>
+                    <li>Vite</li>
                   </ul>
                 </div>
               </div>
