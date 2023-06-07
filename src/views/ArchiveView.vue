@@ -1,5 +1,5 @@
 <template>
-  <Header />
+  <Nav />
   <!-- <div class="mt-4">
     <router-link class="bk-to-home" to="/">Back to home</router-link>
   </div> -->
@@ -14,13 +14,13 @@
 
 <script>
 import Archive from '@/components/Archive.vue'
-import Header from '@/components/Header.vue'
+import Nav from '@/components/Nav.vue'
 import Footer from '@/components/Footer.vue'
 export default {
   name: "ArchiveView",
   components: {
     Archive,
-    Header,
+    Nav,
     Footer
   },
   setup() {},

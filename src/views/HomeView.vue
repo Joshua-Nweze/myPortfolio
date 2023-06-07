@@ -1,5 +1,5 @@
 <template>
-  <Header />
+  <Nav />
   <div class="main">
     <Aboutme />
     <Work />
@@ -11,7 +11,7 @@
 
 <script>
 // @ is an alias to /src
-import Header from '@/components/Header.vue'
+import Nav from '@/components/Nav.vue'
 import Aboutme from '@/components/Aboutme.vue'
 import Projects from '@/components/Projects.vue'
 import Work from '@/components/Work.vue'
@@ -21,7 +21,7 @@ import Footer from '@/components/Footer.vue'
 export default {
   name: 'HomeView',
   components: {
-    Header,
+    Nav,
     Aboutme,
     Projects,
     Work,

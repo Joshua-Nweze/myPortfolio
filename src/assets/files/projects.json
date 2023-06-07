@@ -2,7 +2,7 @@
     "works" :[
         {
             "title": "Dictionary webapp",
-            "about": "A online dictionary for searching word definitions.",
+            "about": "An online dictionary for searching word definitions.",
             "background": "dictionary.jpg",
             "link": "https://seewords.netlify.app/",
             "github": "https://github.com/Joshua-Nweze/WordDictionary",

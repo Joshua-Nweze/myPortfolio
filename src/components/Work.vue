@@ -15,7 +15,7 @@
           <div class="tab-content" id="nav-tabContent">
               <!-- job1 -->
               <div class="tab-pane fade show active" id="nav-job1" name="tabpanel" aria-labelledby="nav-job1-tab" tabindex="0">
-                  Frontend developer <span class="addChartreuse">at Mexygabriel</span> <br>
+                  Intern Frontend developer <span class="addChartreuse">at Mexygabriel</span> <br>
                   <span class="date">Jan 2023 - Present</span>
 
                   <div class="mt-3">
@@ -29,7 +29,7 @@
               </div>
               <!-- job2 -->
               <div class="tab-pane fade" id="nav-job2" name="tabpanel" aria-labelledby="nav-job2-tab" tabindex="0">
-                Junior frontend developer <span class="addChartreuse">at Chibex technologies</span> <br>
+                Intern Junior frontend developer <span class="addChartreuse">at Chibex technologies</span> <br>
                   <span class="date">July 2021 - Dec 2021</span>
 
                   <div class="mt-3">
