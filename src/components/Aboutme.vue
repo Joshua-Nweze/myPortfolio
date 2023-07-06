@@ -44,11 +44,10 @@
                 <div class="col-md-6 col-12">
                   <h6 class="addChartreuse">Libraries &amp; Frameworks</h6>
                   <ul type='circle'>
-                    <li>jQuery</li>
                     <li>VueJs</li>
-                    <li>Bootstrap</li>
                     <li>NuxtJs</li>
-                    <li>TailwindCSS</li>
+                    <li>Bootstrap</li>
+                    <li>Tailwind</li>
                   </ul>
                 </div>
                 <div class="col-md-6 col-12">
@@ -63,7 +62,6 @@
                     <li>Git</li>
                     <li>VSCode</li>
                     <li>Netlify</li>
-                    <li>Webpack</li>
                     <li>Vite</li>
                   </ul>
                 </div>
