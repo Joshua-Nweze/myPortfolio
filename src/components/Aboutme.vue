@@ -8,7 +8,7 @@
       <div>I am a Full Stack Developer</div>
 
       <div class="pt-5">
-        <a href="https://joshuanwezeresume.netlify.app/resume.pdf" target="_blank"><span class="front-btn">Resume</span></a>
+        <a href="https://drive.google.com/file/d/1XycFytS8M1zuRA4DQHm0UweyO9U7sSUd/view?usp=sharing" target="_blank"><span class="front-btn">Resume</span></a>
         <RouterLink to="/contact"><span class="front-btn">Contact</span></RouterLink>
       </div>
     </div>
