@@ -1,38 +1,13 @@
 <template>
-  <Nav />
-  <div class="main">
+  <div >
     <Aboutme />
-    <Work />
-    <Projects />
-    <Contact />
   </div>
   <Footer />
 </template>
 
-<script>
-// @ is an alias to /src
-import Nav from '@/components/Nav.vue'
-import Aboutme from '@/components/Aboutme.vue'
-import Projects from '@/components/Projects.vue'
-import Work from '@/components/Work.vue'
-import Contact from '@/components/Contact.vue'
-import Footer from '@/components/Footer.vue'
-
-export default {
-  name: 'HomeView',
-  components: {
-    Nav,
-    Aboutme,
-    Projects,
-    Work,
-    Contact,
-    Footer
-  }
-}
+<script setup>
+import Aboutme from '@/components/Aboutme.vue';
 </script>
 
-<style>
-  .main{
-    flex-grow: 1;
-  }
+<style scoped>
 </style>

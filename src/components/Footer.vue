@@ -1,7 +1,7 @@
 <template>
-  <footer class="container text-center">
-    <hr>
-    	&copy; {{ new Date().getFullYear() }}. Designed and built by Joshua Nweze
+  <footer class="container text-center row">
+    <div class="hr"></div>
+    &copy; {{ new Date().getFullYear() }}. Designed and built by yours truly.
   </footer>
 </template>
 
@@ -14,5 +14,10 @@ export default {
 </script>
 
 <style>
-
+.hr {
+  background-color: var(--primaryColor);
+  margin-bottom: 5px;
+  height: 1px;
+  width: 100%;
+}
 </style>

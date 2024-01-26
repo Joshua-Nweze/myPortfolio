@@ -1,7 +1,7 @@
 <template>
-<nav class="nav navbar navbar-expand-lg fixed-top" id="navbar" >
+<nav class="nav navbar navbar-expand-lg fixed-top d-lg-none" id="navbar" >
   <div class="container">
-    <router-link class="navbar-brand nav-link addChartreuse" to="/"  @click="scrollTo('about-intro')">JN</router-link>
+    <RouterLink to="/" class="navbar-brand nav-link addChartreuse">JN</RouterLink>
 
     <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
       <span><i class="bi bi-list-nested"></i></span>
@@ -11,16 +11,16 @@
       <div class="navitems">
         <ul class="navbar-nav justify-content-end">
         <li class="nav-item">
-          <router-link class="nav-link addChartreuse" to="/" @click="scrollTo('about')">About</router-link>
+          <RouterLink class="nav-link addChartreuse" to="/">About</RouterLink>
         </li>
         <li class="nav-item">
-          <router-link class="nav-link addChartreuse" to="/" @click="scrollTo('work')">Work</router-link>
+          <RouterLink class="nav-link addChartreuse" to="/experience">Experience</RouterLink>
         </li>
         <li class="nav-item">
-          <router-link class="nav-link addChartreuse" to="/" @click="scrollTo('project')">Projects</router-link>
+          <RouterLink class="nav-link addChartreuse" to="/projects">Projects</RouterLink>
         </li>
         <li class="nav-item">
-          <router-link class="nav-link addChartreuse" to="/" @click="scrollTo('contact')">Contact</router-link>
+          <RouterLink class="nav-link addChartreuse" to="/contact">Contact</RouterLink>
         </li>
         <li class="nav-item resume ml-5 mr-5">
           <a class="nav-link addChartreuse" href="https://joshuanwezeresume.netlify.app/resume.pdf" target="_blank">Resume</a>

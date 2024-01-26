@@ -1,24 +1,65 @@
 <template>
-  <!-- <nav>
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
-  </nav> -->
-  <div class="body">
-    <router-view/>
+  <div class="body container p-4">
+    <div class="row" style="height: 100%; position: relative;">
+      <div class="col-lg-4 d-none d-lg-flex flex-column sidenav-container position-fixed">
+
+        <div class="sidenav fs-2">
+          <div class="navbar-brand pt-4">Joshua Nweze</div>
+
+          <div class="sidenav-items mt-5 d-flex flex-column">
+            <RouterLink to="/" class="link">about</RouterLink>
+            <RouterLink to="/experience" class="link">experience</RouterLink>
+            <RouterLink to="/projects" class="link">projects</RouterLink>
+            <RouterLink to="/contact" class="link">contact</RouterLink>
+            <a href="https://drive.google.com/file/d/1XycFytS8M1zuRA4DQHm0UweyO9U7sSUd/view?usp=sharing" target="_blank" class="nav-link">resume</a>
+          </div>
+        </div>
+
+        <div class="justify-content-end">
+          <a href="https://twitter.com/TheJosh_N" class="social-icon" target="_blank"><span><i
+                class="bi bi-twitter fs-4"></i></span></a>
+          <a href="https://github.com/Joshua-Nweze" class="social-icon" target="_blank"><span><i
+                class="bi bi-github fs-4"></i></span></a>
+          <a href="https://www.linkedin.com/in/joshuanweze" class="social-icon" target="_blank"><span><i
+                class="bi bi-linkedin fs-4"></i></span></a>
+
+          <div class="footer">
+            <hr>
+            &copy; {{ new Date().getFullYear() }}. Designed and built by yours truly.
+          </div>
+        </div>
+
+      </div>
+      <div class="col-lg-8 position-absolute right-0 main">
+        <Nav />
+        <div class="router-view">
+          <RouterView />
+        </div>
+        <Footer class="d-flex d-lg-none mt-5"/>
+      </div>
+    </div>
   </div>
-  
 </template>
 
+<script setup>
+import Nav from './components/Nav.vue';
+import Footer from './components/Footer.vue';
+</script>
+
 <style>
+:root {
+  --primaryColor: #727376;
+  --higlightColor: #a6a6a6;
+}
+
+
 #app {
-  /* font-family: Avenir, Helvetica, Arial, sans-serif; */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  /* text-align: center; */
-  
+
   font-family: 'Special Elite', 'cursive';
   background-color: #0f2443;
-  color: #727376;
+  color: var(--primaryColor);
   overflow-x: hidden;
   font-size: 17px;
 }
@@ -32,25 +73,100 @@ nav a {
   color: #2c3e50;
 }
 
-a{
+a {
   text-decoration: none;
+  color: var(--primaryColor);
+}
+a:hover {
+  color: chartreuse;
 }
 
 ::-webkit-scrollbar {
   width: 4px;
   background-color: #0f2443;
 }
- 
+
 ::-webkit-scrollbar-thumb {
-  background: chartreuse; 
+  background: chartreuse;
   border-radius: 10px;
   height: 10px;
 }
 
-.body{
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
+.body {
+  height: 100vh;
 }
 
+.sidenav {
+  height: 100%;
+}
+
+.sidenav-container {
+  /* position: fixed; */
+  top: 0;
+  bottom: 0;
+  overflow: scroll;
+  height: 100%;
+  padding: 0 80px;
+}
+
+.link {
+  max-width: fit-content;
+}
+
+.sidenav-container::-webkit-scrollbar {
+  width: 0
+}
+
+.sidenav-items {
+  letter-spacing: -5px;
+}
+
+
+.router-link-exact-active {
+  color: chartreuse;
+}
+
+.router-view, .main {
+  right: 0;
+  position: relative;
+  flex-grow: 1;
+}
+
+.social-icon {
+  margin-right: 15px;
+  color: var(--primaryColor);
+  transition: 1s ease;
+}
+
+.social-icon:hover {
+  margin-right: 15px;
+  color: chartreuse;
+  transition: 1s ease;
+}
+
+.nav-link {
+  transition: 1s ease;
+  color: var(--primaryColor);
+}
+
+.nav-link:hover {
+  transition: 1s ease;
+  color: chartreuse;
+}
+
+.footer {
+  font-size: 15px;
+}
+
+@media only screen and (min-width: 1024px) {
+ .main{
+  padding-right: 80px;
+ } 
+}
+
+.main{
+    min-height: 95vh;
+    display: flex;
+    flex-flow: column;
+  }
 </style>

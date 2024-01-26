@@ -1,19 +1,20 @@
 <template>
   <div class="wrapper" id="about-intro">
-    <div class="pt-5 pb-5 container text-center">
+    <WordHeader header="about"/>
+    <div class="pb-5 container text-center">
 
-      <div class="pt-5">Hi there 👋🏽, my name is</div>
+      <div>Hi there 👋🏽, my name is</div>
       <div class="addChartreuse name">Joshua Nweze</div>
-      <div>I am a front end web developer</div>
+      <div>I am a Full Stack Developer</div>
 
       <div class="pt-5">
         <a href="https://joshuanwezeresume.netlify.app/resume.pdf" target="_blank"><span class="front-btn">Resume</span></a>
-        <router-link to="/" @click="scrollTo"><span class="front-btn">Contact</span></router-link>
+        <RouterLink to="/contact"><span class="front-btn">Contact</span></RouterLink>
       </div>
     </div>
 
-    <div class="pt-5 container" id="about">
-      <div class="row justify-content-center container">
+    <div class="container" id="about">
+      <div class="">
       
           <div class="">
             <div class="row">
@@ -22,11 +23,11 @@
             </div>
           </div>
 
-        <div class="col-sm-12 col-md-8 col-lg-8 pt-2">
+        <div>
 
-            <p>Hello! My name is Joshua, I am a frontend developer and I enjoy creating awesome useful things that solve problems. </p>
+            <p>Hello there! 👋, I am a passionate Full Stack Developer with an eye for creating robust and scalable websites and web applications. I enjoy using my expertise in front-end and back-end technology to bring creative ideas to life.</p>
 
-            <p>I've completed some projects and few for clients, some which I did personally and worked as a team. I am still on  the journey of learning and discovering new things in the world of tech.</p>
+            <p>I am still on  the journey of learning and discovering new things in the world of tech.</p>
 
             <p>Other of my hobbies include reading, discovering and learning new things, playing computer games, movies and music.</p>
 
@@ -37,6 +38,7 @@
                   <h6 class="addChartreuse">Languages</h6>
                   <ul type='circle'>
                     <li>JavaScript</li>
+                    <li>TypeScript</li>
                     <li>HTML</li>
                     <li>CSS</li>
                   </ul>
@@ -48,21 +50,23 @@
                     <li>NuxtJs</li>
                     <li>Bootstrap</li>
                     <li>Tailwind</li>
-                  </ul>
-                </div>
-                <div class="col-md-6 col-12">
-                  <h6 class="addChartreuse">Design</h6>
-                  <ul type='circle'>
-                    <li>Figma</li>
+                    <li>ExpressJs</li>
                   </ul>
                 </div>
                 <div class="col-md-6 col-12">
                   <h6 class="addChartreuse">Tools &amp; Platforms</h6>
                   <ul type='circle'>
                     <li>Git</li>
-                    <li>VSCode</li>
+                    <li>Github</li>
                     <li>Netlify</li>
                     <li>Vite</li>
+                    <li>Firebase</li>
+                  </ul>
+                </div>
+                <div class="col-md-6 col-12">
+                  <h6 class="addChartreuse">Database</h6>
+                  <ul type='circle'>
+                    <li>MongoDB</li>
                   </ul>
                 </div>
               </div>
@@ -71,28 +75,21 @@
 
             <!-- <p>Currently, I am learning React. </p> -->
         </div>
-        <div class="col-sm-12 col-md-4 col-lg-4 pt-2 text-center"><img src="../assets/images/my-img.jpeg" class="my-image" alt=""></div>
+        <!-- <div class="col-sm-12 col-md-4 col-lg-4 pt-2 text-center"><img src="../assets/images/my-img.jpeg" class="my-image" alt=""></div> -->
       </div>
     </div>
 
   </div>
 </template>
 
-<script>
-export default {
-  name: "Aboutme",
-
-  setup() {
-    function scrollTo() {
-      setTimeout(() => {
-        let scrollId = document.getElementById('contact')
-        scrollId.scrollIntoView()
-      }, 100)
-    }
-
-    return { scrollTo }
-  }
-};
+<script setup>
+import WordHeader from './WordHeader.vue';
+function scrollTo() {
+  setTimeout(() => {
+    let scrollId = document.getElementById('contact')
+    scrollId.scrollIntoView()
+  }, 100)
+}
 </script>
 
 <style scoped>

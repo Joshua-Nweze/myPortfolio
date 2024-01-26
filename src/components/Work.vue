@@ -1,6 +1,6 @@
 <template>
-  <div class="container pb-5 pt-5 text-center" id="work">
-    <h3 class="sub-header pt-5">Work</h3>
+  <div class="pb-5" id="work">
+    <h3 class="sub-header">Work</h3>
     <h5 class="mb-4">Where I have worked</h5>
 
     <div class="row justify-content-center text-start mt-3">
@@ -11,7 +11,7 @@
           </div>
       </div>
      
-      <div class="col-md-6">
+      <div class="col-md-9">
           <div class="tab-content" id="nav-tabContent">
               <!-- job1 -->
               <div class="tab-pane fade show active" id="nav-job1" name="tabpanel" aria-labelledby="nav-job1-tab" tabindex="0">
