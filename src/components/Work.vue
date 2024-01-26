@@ -15,22 +15,28 @@
           <div class="tab-content" id="nav-tabContent">
               <!-- job1 -->
               <div class="tab-pane fade show active" id="nav-job1" name="tabpanel" aria-labelledby="nav-job1-tab" tabindex="0">
-                  Intern Frontend developer <span class="addChartreuse">at Mexygabriel</span> <br>
-                  <span class="date">Jan 2023 - Present</span>
+                  <div>
+                    Intern Full Stack developer at <span class="addChartreuse">Mexygabriel</span> <br>
+                    <span class="date">August 2023 - December 2023</span>
+                  </div>
+
+                  <div class="mt-3">
+                    Intern Frontend developer<br>
+                    <span class="date">January 2023 - July 2023</span>
+                  </div>
 
                   <div class="mt-3">
                     <ul>
-                      <li>Used HTML, CSS, JavaScript and frontend frameworks to build top-quality code for diverse projects.</li>
+                      <li>Wrote frontend and backend code for projects.</li>
                       <li>Created clean, well-documented custom code and updates.</li>
                       <li>Debugged websites to identify and resolve potential problems.</li>
-                      <li>Worked with designers, other developers and project managers in building ideas into reality for clients</li>
                     </ul>
                   </div>
               </div>
               <!-- job2 -->
               <div class="tab-pane fade" id="nav-job2" name="tabpanel" aria-labelledby="nav-job2-tab" tabindex="0">
-                Intern Junior frontend developer <span class="addChartreuse">at Chibex technologies</span> <br>
-                  <span class="date">July 2021 - Dec 2021</span>
+                Intern Junior frontend developer at <span class="addChartreuse">Chibex technologies</span> <br>
+                  <span class="date">July 2021 - December 2021</span>
 
                   <div class="mt-3">
                     <ul>
