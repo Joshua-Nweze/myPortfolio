@@ -23,7 +23,7 @@
           <RouterLink class="nav-link addChartreuse" to="/contact">Contact</RouterLink>
         </li>
         <li class="nav-item resume ml-5 mr-5">
-          <a class="nav-link addChartreuse" href="https://joshuanwezeresume.netlify.app/resume.pdf" target="_blank">Resume</a>
+          <a class="nav-link addChartreuse" href="https://docs.google.com/document/d/1FD99zSu8V0ckXwexyiFC5VMYyzY0oyZfSeWcE_xzGDs/edit?usp=sharing" target="_blank">Resume</a>
         </li>
       </ul>
       </div>
@@ -33,42 +33,7 @@
 </nav>
 </template> 
 
-<script>
-import { ref } from '@vue/reactivity';
-export default{
-  name: 'Header',
-  setup() {
-    let lastScrollY = ref(window.scrollY);
-
-
-    window.addEventListener('scroll', () => {
-      if (lastScrollY > window.scrollY) {
-        navbar.style.top = "0"
-      } else if (lastScrollY < window.scrollY) {
-        navbar.style.top = "-70px"
-      }
-
-      lastScrollY = window.scrollY
-    })
-
-    window.addEventListener('click', () => {
-      document.getElementById("navbarNavDropdown").classList.remove("show");
-    })
-
-    function scrollTo(id) {
-      setTimeout(() => {
-        let scrollId = document.getElementById(id)
-        scrollId.scrollIntoView()
-      }, 100)
-    }
-
-
-    return { lastScrollY, scrollTo }
-
-  }
-
-
-}
+<script setup>
 </script>
 
 <style scoped>

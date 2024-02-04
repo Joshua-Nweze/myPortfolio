@@ -40,8 +40,7 @@
 
                   <div class="mt-3">
                     <ul>
-                      <li>Used HTML, CSS, Bootstrap, and JavaScript to design, build and maintain websites.</li>
-                      <li>Worked with UI/UX designers and backend developers to create stunning websites.</li>
+                      <li>Used HTML, CSS, JavaScript, and frontend frameworks to build top-quality code for diverse projects.</li>
                     </ul>
                   </div>
               </div>
