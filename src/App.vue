@@ -11,7 +11,7 @@
             <RouterLink to="/experience" class="link">experience</RouterLink>
             <RouterLink to="/projects" class="link">projects</RouterLink>
             <RouterLink to="/contact" class="link">contact</RouterLink>
-            <a href="https://docs.google.com/document/d/1FD99zSu8V0ckXwexyiFC5VMYyzY0oyZfSeWcE_xzGDs/edit?usp=sharing" target="_blank" class="nav-link">resume</a>
+            <a href="https://drive.google.com/file/d/1fvPljedCQPZ9BBtgNPQj6pPjX5rsNVXv/view?usp=sharing" target="_blank" class="nav-link">resume</a>
           </div>
         </div>
 

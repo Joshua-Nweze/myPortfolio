@@ -11,19 +11,19 @@
       <div class="navitems">
         <ul class="navbar-nav justify-content-end">
         <li class="nav-item">
-          <RouterLink class="nav-link addChartreuse" to="/">About</RouterLink>
+          <div class="nav-link addChartreuse" @click="navigateTo('/')" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown">about</div>
         </li>
         <li class="nav-item">
-          <RouterLink class="nav-link addChartreuse" to="/experience">Experience</RouterLink>
+          <div class="nav-link addChartreuse" @click="navigateTo('/experience')" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown">experience</div>
         </li>
         <li class="nav-item">
-          <RouterLink class="nav-link addChartreuse" to="/projects">Projects</RouterLink>
+          <div class="nav-link addChartreuse" @click="navigateTo('/projects')" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown">projects</div>
         </li>
         <li class="nav-item">
-          <RouterLink class="nav-link addChartreuse" to="/contact">Contact</RouterLink>
+          <div class="nav-link addChartreuse" @click="navigateTo('/contact')" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown">contact</div>
         </li>
         <li class="nav-item resume ml-5 mr-5">
-          <a class="nav-link addChartreuse" href="https://docs.google.com/document/d/1FD99zSu8V0ckXwexyiFC5VMYyzY0oyZfSeWcE_xzGDs/edit?usp=sharing" target="_blank">Resume</a>
+          <a class="nav-link addChartreuse" href="https://drive.google.com/file/d/1fvPljedCQPZ9BBtgNPQj6pPjX5rsNVXv/view?usp=sharing" target="_blank">resume</a>
         </li>
       </ul>
       </div>
@@ -34,6 +34,13 @@
 </template> 
 
 <script setup>
+import { useRouter } from 'vue-router';
+
+let router = useRouter()
+
+function navigateTo(route) {
+	router.push(route)
+}
 </script>
 
 <style scoped>
