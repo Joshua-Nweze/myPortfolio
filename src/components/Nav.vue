@@ -23,7 +23,7 @@
           <div class="nav-link addChartreuse" @click="navigateTo('/contact')" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown">contact</div>
         </li>
         <li class="nav-item resume ml-5 mr-5">
-          <a class="nav-link addChartreuse" href="https://drive.google.com/file/d/1fvPljedCQPZ9BBtgNPQj6pPjX5rsNVXv/view?usp=sharing" target="_blank">resume</a>
+          <a class="nav-link addChartreuse" href="https://drive.google.com/file/d/1fTUOZ9ag1EYdyvWvfeeBWFmo_I_uf4fC/view?usp=sharing" target="_blank">resume</a>
         </li>
       </ul>
       </div>
