@@ -15,11 +15,11 @@
 
                         <div>
                             <a :href="project.github" class="stack-span" target="_blank" v-if="project.github">
-                                <i class="bi bi-github"></i><br>
+                                <i class="bi bi-github fs-3"></i><br>
                             </a>
 
                             <a :href="project.link" class="stack-span" target="_blank" v-if="project.link">
-                                <i class="bi bi-link-45deg"></i><br>
+                                <i class="bi bi-link-45deg fs-3"></i><br>
                             </a>
                         </div>
                     </div>
@@ -58,7 +58,6 @@ a:hover {
 
 .wrapper {
     margin-top: 20px;
-    background-color: #0f2443;
 }
 
 .about-project .stack-span {

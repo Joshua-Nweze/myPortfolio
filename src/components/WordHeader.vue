@@ -1,31 +1,37 @@
 <template>
     <div class="header d-flex justify-content-end">
-        {{ header }}
+        <span class="word">{{ header }}</span>
     </div>
 </template>
 
 <script setup>
-defineProps(['header'])
+defineProps(["header"]);
 </script>
 
 <style scoped>
 .header {
-    opacity: 0.15;
     height: 150px;
-    font-size: 130px;
+    background: var(--backGround);
+}
+.word{
+    font-size: 70px;
+    opacity: .7;
 }
 
 @media only screen and (max-width: 480px) {
-    .header{
-        font-size: 50px;
+    .header {
         height: 80px;
         margin-top: 50px;
+    }
+
+    .word {
+        font-size: 50px;
+        opacity: .7;
     }
 }
 
 @media only screen and (min-width: 481px) and (max-width: 1023px) {
-    .header{
-        font-size: 70px;
+    .header {
         height: 100px;
         margin-top: 20px;
     }

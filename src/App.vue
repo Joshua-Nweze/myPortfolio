@@ -1,17 +1,17 @@
 <template>
   <div class="body container p-4">
     <div class="row" style="height: 100%; position: relative;">
-      <div class="col-lg-4 d-none d-lg-flex flex-column sidenav-container position-fixed">
+      <div class="col-lg-3 d-none d-lg-flex flex-column sidenav-container position-fixed">
 
         <div class="sidenav fs-2">
           <div class="navbar-brand pt-4">Joshua Nweze</div>
 
-          <div class="sidenav-items mt-5 d-flex flex-column">
-            <RouterLink to="/" class="link">about</RouterLink>
-            <RouterLink to="/experience" class="link">experience</RouterLink>
-            <RouterLink to="/projects" class="link">projects</RouterLink>
-            <RouterLink to="/contact" class="link">contact</RouterLink>
-            <a href="https://drive.google.com/file/d/1fTUOZ9ag1EYdyvWvfeeBWFmo_I_uf4fC/view?usp=sharing" target="_blank" class="nav-link">resume</a>
+          <div class="sidenav-items mt-5 d-flex flex-column fs-5 gap-2">
+            <RouterLink to="/" class="link"><i class="bi bi-house me-2"></i> home</RouterLink>
+            <RouterLink to="/experience" class="link"><i class="bi bi-briefcase me-2"></i> experience</RouterLink>
+            <RouterLink to="/projects" class="link"><i class="bi bi-cone me-2"></i> projects</RouterLink>
+            <RouterLink to="/contact" class="link"><i class="bi bi-person-rolodex me-2"></i> contact</RouterLink>
+            <a href="https://drive.google.com/file/d/1zkuq3u0lSqoyRNxGFwT3HfJ2_zt7AtRH/view?usp=sharing" target="_blank" class="nav-link"><i class="bi bi-file-earmark me-2"></i> resume</a>
           </div>
         </div>
 
@@ -35,7 +35,7 @@
         <div class="router-view">
           <RouterView />
         </div>
-        <Footer class="d-flex d-lg-none mt-5"/>
+        <Footer class="d-flex d-lg-none mt-5 py-2"/>
       </div>
     </div>
   </div>
@@ -50,15 +50,19 @@ import Footer from './components/Footer.vue';
 :root {
   --primaryColor: #727376;
   --higlightColor: #a6a6a6;
+  --backGround: #141414;
 }
 
+*{
+  background-color: var(--backGround);
+}
 
 #app {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 
   font-family: 'Special Elite', 'cursive';
-  background-color: #0f2443;
+  background-color: #141414;
   color: var(--primaryColor);
   overflow-x: hidden;
   font-size: 17px;
@@ -83,7 +87,7 @@ a:hover {
 
 ::-webkit-scrollbar {
   width: 4px;
-  background-color: #0f2443;
+  background-color: var(--backGround);
 }
 
 ::-webkit-scrollbar-thumb {
@@ -118,7 +122,7 @@ a:hover {
 }
 
 .sidenav-items {
-  letter-spacing: -5px;
+  letter-spacing: -2px;
 }
 
 

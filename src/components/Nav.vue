@@ -1,105 +1,146 @@
 <template>
-<nav class="nav navbar navbar-expand-lg fixed-top d-lg-none" id="navbar" >
-  <div class="container">
-    <RouterLink to="/" class="navbar-brand nav-link addChartreuse">JN</RouterLink>
+    <nav class="nav navbar navbar-expand-lg fixed-top d-lg-none border-bottom border-secondary" id="navbar">
+        <div class="container">
+            <RouterLink to="/" class="navbar-brand nav-link addChartreuse"
+                >JN</RouterLink
+            >
 
-    <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-      <span><i class="bi bi-list-nested"></i></span>
-    </button>
-    
-    <div class="collapse navbar-collapse" id="navbarNavDropdown">
-      <div class="navitems">
-        <ul class="navbar-nav justify-content-end">
-        <li class="nav-item">
-          <div class="nav-link addChartreuse" @click="navigateTo('/')" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown">about</div>
-        </li>
-        <li class="nav-item">
-          <div class="nav-link addChartreuse" @click="navigateTo('/experience')" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown">experience</div>
-        </li>
-        <li class="nav-item">
-          <div class="nav-link addChartreuse" @click="navigateTo('/projects')" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown">projects</div>
-        </li>
-        <li class="nav-item">
-          <div class="nav-link addChartreuse" @click="navigateTo('/contact')" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown">contact</div>
-        </li>
-        <li class="nav-item resume ml-5 mr-5">
-          <a class="nav-link addChartreuse" href="https://drive.google.com/file/d/1fTUOZ9ag1EYdyvWvfeeBWFmo_I_uf4fC/view?usp=sharing" target="_blank">resume</a>
-        </li>
-      </ul>
-      </div>
-      
-    </div>
-  </div>
-</nav>
-</template> 
+            <button
+                class="navbar-toggler addChartreuse"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+            >
+                <span><i class="bi bi-list-nested"></i></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <div class="navitems">
+                    <ul class="navbar-nav justify-content-end">
+                        <li class="nav-item">
+                            <div
+                                class="nav-link"
+                                @click="navigateTo('/')"
+                                data-bs-toggle="collapse"
+                                data-bs-target="#navbarNavDropdown"
+                                ref="home"
+                            >
+                              <i class="bi bi-house me-2"></i> home
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <div
+                                class="nav-link"
+                                @click="navigateTo('/experience')"
+                                data-bs-toggle="collapse"
+                                data-bs-target="#navbarNavDropdown"
+                            >
+                              <i class="bi bi-briefcase me-2"></i> experience
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <div
+                                class="nav-link"
+                                @click="navigateTo('/projects')"
+                                data-bs-toggle="collapse"
+                                data-bs-target="#navbarNavDropdown"
+                            >
+                                <i class="bi bi-cone me-2"></i> projects
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <div
+                                class="nav-link"
+                                @click="navigateTo('/contact')"
+                                data-bs-toggle="collapse"
+                                data-bs-target="#navbarNavDropdown"
+                            >
+                              <i class="bi bi-person-rolodex me-2"></i>contact
+                            </div>
+                        </li>
+                        <li class="nav-item ml-5 mr-5">
+                            <a
+                                class="nav-link"
+                                href="https://drive.google.com/file/d/1zkuq3u0lSqoyRNxGFwT3HfJ2_zt7AtRH/view?usp=sharing"
+                                target="_blank"
+                                ><i class="bi bi-file-earmark me-2"></i> resume</a
+                            >
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="mt-4 mb-2">
+                    <a
+                        href="https://twitter.com/TheJosh_N"
+                        class="social-icon"
+                        target="_blank"
+                        ><span><i class="bi bi-twitter fs-4"></i></span
+                    ></a>
+                    <a
+                        href="https://github.com/Joshua-Nweze"
+                        class="social-icon"
+                        target="_blank"
+                        ><span><i class="bi bi-github fs-4"></i></span
+                    ></a>
+                    <a
+                        href="https://www.linkedin.com/in/joshuanweze"
+                        class="social-icon"
+                        target="_blank"
+                        ><span><i class="bi bi-linkedin fs-4"></i></span
+                    ></a>
+                </div>
+            </div>
+        </div>
+    </nav>
+</template>
 
 <script setup>
-import { useRouter } from 'vue-router';
+import { ref } from "vue";
+import { useRouter, useRoute } from "vue-router";
 
-let router = useRouter()
+let route = useRoute()
+let router = useRouter();
+
 
 function navigateTo(route) {
-	router.push(route)
+    router.push(route);
 }
 </script>
 
 <style scoped>
-  nav{
+nav {
     text-align: center;
-    background-color: #0a192f;
-  }
+    background-color: var(--backGround);
+}
 
-  .navbar{
+.navbar {
     transition: 0.5s;
     /* position: fixed; */
-  }
+}
 
-  .navbar-brand{
+.navbar-brand {
     font-size: 30px;
-  }
+}
 
-  .navitems{
+.navitems {
     margin-left: auto;
-  }
+}
 
-  .addChartreuse{
-     color: chartreuse
-  }
+.addChartreuse {
+    color: chartreuse;
+}
 
-  .navbar-toggler{
+.navbar-toggler {
     /* border-color: chartreuse;   */
     /* color: chartreuse; */
     border: none;
-  }
-  
-  .bi{
-    color: chartreuse !important;
-  }
+}
 
-  .resume{
-    border: 1px solid chartreuse;
-    padding: 0 10px;
-    transition: 0.3s ease-in;
-    /* margin: 0 40px; */
-  }
+.router-link-exact-active {
+    color: chartreuse;
+}
 
-  .resume:hover{
-    background-color: rgb(24, 48, 1);
-  }
-
-  @media only screen and (max-width: 480px) {
-    .resume{
-      border: 1px solid chartreuse;
-      padding: 0 10px;
-      margin: 0 50px;
-    }
-  }
-
-  @media only screen and (min-width: 481px) and (max-width: 1023px) {
-    .resume{
-      border: 1px solid chartreuse;
-      padding: 0 10px;
-      margin: 0 200px;
-    }
-  }
 </style>

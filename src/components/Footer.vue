@@ -1,16 +1,13 @@
 <template>
-  <footer class="container text-center row">
+  <footer class="row py-3">
     <div class="hr"></div>
-    &copy; {{ new Date().getFullYear() }}. Designed and built by yours truly.
+    <div class="text-center">
+      &copy; {{ new Date().getFullYear() }}. Designed and built by yours truly.
+    </div>
   </footer>
 </template>
 
-<script>
-import { ref } from '@vue/reactivity'
-export default {
-    name: "Footer",
-
-}
+<script setup>
 </script>
 
 <style>

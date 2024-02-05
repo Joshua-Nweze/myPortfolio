@@ -6,8 +6,8 @@
     <div class="row justify-content-center text-start mt-3">
       <div class="col-md-3 col-sm-12">
           <div class="nav outer" id="nav-tab" name="tablist">
-              <span class="nav-link active" id="nav-job1-tab" data-bs-toggle="tab" data-bs-target="#nav-job1" type="button" name="tab" aria-controls="nav-job1" aria-selected="true">Mexygabriel</span>
-              <span class="nav-link" id="nav-job2-tab" data-bs-toggle="tab" data-bs-target="#nav-job2" type="button" name="tab" aria-controls="nav-job2" aria-selected="false">Chibex Technologies</span>
+              <span class="nav-link active border-end" id="nav-job1-tab" data-bs-toggle="tab" data-bs-target="#nav-job1" type="button" name="tab" aria-controls="nav-job1" aria-selected="true">Mexygabriel</span>
+              <span class="nav-link border-end" id="nav-job2-tab" data-bs-toggle="tab" data-bs-target="#nav-job2" type="button" name="tab" aria-controls="nav-job2" aria-selected="false">Chibex Technologies</span>
           </div>
       </div>
      
@@ -16,13 +16,13 @@
               <!-- job1 -->
               <div class="tab-pane fade show active" id="nav-job1" name="tabpanel" aria-labelledby="nav-job1-tab" tabindex="0">
                   <div>
-                    Intern Full Stack developer at <span class="addChartreuse">Mexygabriel</span> <br>
-                    <span class="date">August 2023 - December 2023</span>
+                    <div>Intern Full Stack developer at <span class="addChartreuse">Mexygabriel</span></div>
+                    <div class="date">August 2023 - December 2023</div>
                   </div>
 
                   <div class="mt-3">
-                    Intern Frontend developer<br>
-                    <span class="date">January 2023 - July 2023</span>
+                    <div>Intern Frontend developer <span class="addChartreuse">Mexygabriel</span></div>
+                    <div class="date">January 2023 - July 2023</div>
                   </div>
 
                   <div class="mt-3">
@@ -35,8 +35,8 @@
               </div>
               <!-- job2 -->
               <div class="tab-pane fade" id="nav-job2" name="tabpanel" aria-labelledby="nav-job2-tab" tabindex="0">
-                Intern Junior frontend developer at <span class="addChartreuse">Chibex technologies</span> <br>
-                  <span class="date">July 2021 - December 2021</span>
+                <div>Intern Junior frontend developer at <span class="addChartreuse">Chibex technologies</span></div>
+                  <div class="date">July 2021 - December 2021</div>
 
                   <div class="mt-3">
                     <ul>
@@ -79,13 +79,8 @@ export default {
 }
 
 .nav-link{
-  background-color: #0f2443 !important;
   color: #727376;
   width: 100%;
-}
-
-.contact:hover{
-    color: chartreuse;
 }
 
 .sub-header{
@@ -102,7 +97,7 @@ export default {
 
 ::-webkit-scrollbar {
   width: 4px;
-  background-color: #0f2443;
+  background-color: var(--backGround);
   height: 5px;
 }
  

@@ -1,15 +1,17 @@
 <template>
-  <div class="wrapper" id="about-intro">
-    <WordHeader header="about"/>
+  <div class="wrapper mb-3" id="about-intro">
+    <WordHeader header="home"/>
     <div class="pb-5 container text-center">
+
+      <div class="text-start px-2 py-1 rounded-pill work-search-status">Available for work</div>
 
       <div>Hi there 👋🏽, my name is</div>
       <div class="addChartreuse name">Joshua Nweze</div>
       <div>I am a Full Stack Developer</div>
 
       <div class="pt-5">
-        <a href="https://drive.google.com/file/d/1XycFytS8M1zuRA4DQHm0UweyO9U7sSUd/view?usp=sharing" target="_blank"><span class="front-btn">Resume</span></a>
-        <RouterLink to="/contact"><span class="front-btn">Contact</span></RouterLink>
+        <a href="https://drive.google.com/file/d/1XycFytS8M1zuRA4DQHm0UweyO9U7sSUd/view?usp=sharing" target="_blank"><span class="front-btn">resume</span></a>
+        <RouterLink to="/contact"><span class="front-btn">contact</span></RouterLink>
       </div>
     </div>
 
@@ -172,30 +174,15 @@ function scrollTo() {
     color: chartreuse;
 }
 
-.front-link{
-    border: chartreuse 1px solid;
-    border-radius: 1px;
-    padding: 15px 20px;
-    /* margin-top: 20px; */
-    background-color: transparent;
-    text-decoration: none;
-    /* margin-left: 10px; */
-}
-
-.hr{
-  height: 15px;
-  width: 300px;
-  background-color: chartreuse;
-  border-top: 1px solid;
-}
-
-.about{
- width: 200px;
- border-top: 2px solid burlywood;
- height: 10px;
-}
-
 .sub-header{
   color: chartreuse;
+}
+
+.work-search-status {
+  max-width: fit-content;
+  background-color: #173125;
+  color: chartreuse;
+  margin-bottom: 10px;
+  font-size: 14px;
 }
 </style>
