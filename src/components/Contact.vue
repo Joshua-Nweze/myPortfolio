@@ -16,11 +16,7 @@
   </div>
 </template>
 
-<script>
-export default {
-  name: "Conatact"
-
-}
+<script setup>
 </script>
 
 <style scoped>

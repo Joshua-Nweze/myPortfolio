@@ -21,7 +21,7 @@ defineProps(["header"]);
 @media only screen and (max-width: 480px) {
     .header {
         height: 80px;
-        margin-top: 50px;
+        padding: 70px 0;
     }
 
     .word {
@@ -33,7 +33,7 @@ defineProps(["header"]);
 @media only screen and (min-width: 481px) and (max-width: 1023px) {
     .header {
         height: 100px;
-        margin-top: 20px;
+        margin-top: 30px;
     }
 }
 </style>

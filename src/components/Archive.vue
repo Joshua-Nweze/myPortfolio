@@ -10,18 +10,18 @@
         </div>
 
         <div class="row mt-3 mb-4 d-flex justify-content-center" v-for="project in my_projects" :key="project.id">
-            <div class="col-md-3 col-lg-2 col-10 project-detail"><strong> {{ project.title }} </strong></div>
+            <div class="col-9 col-md-3 col-lg-2 project-detail"><strong> {{ project.title }} </strong></div>
             <div class="col-md-3 col-lg-2 d-none d-md-block">{{ project.year }}</div>
             <div class="col-md-3 col-lg-3 d-none d-md-block"><span v-for="stack in project.stack" :key="stack.id" class="stack-span project-detail">{{ stack.name }}</span></div>
-            <div class="col-md-3 col-lg-1 col-2">
-                <div class="row">
+            <div class="col-3 col-md-3 col-lg-1">
+                <div class="row d-flex justify-content-start">
                     <div class="col-4">
                         <a :href="project.github" class="mt-4 link" target="_blank" v-if="project.github">
                             <i class="bi bi-github"></i><br>
                         </a>
                     </div>
 
-                    <div class="col-4">
+                    <div class="col-4 ms-2">
                         <a :href="project.link" class="mt-4 link" target="_blank" v-if="project.link">
                             <i class="bi bi-link-45deg"></i><br>
                         </a>

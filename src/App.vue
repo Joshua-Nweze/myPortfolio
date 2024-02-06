@@ -1,7 +1,7 @@
 <template>
   <div class="body container p-4">
     <div class="row" style="height: 100%; position: relative;">
-      <div class="col-lg-3 d-none d-lg-flex flex-column sidenav-container position-fixed">
+      <div class="col-lg-4 d-none d-lg-flex flex-column sidenav-container position-fixed">
 
         <div class="sidenav fs-2">
           <div class="navbar-brand pt-4">Joshua Nweze</div>
@@ -23,7 +23,7 @@
           <a href="https://www.linkedin.com/in/joshuanweze" class="social-icon" target="_blank"><span><i
                 class="bi bi-linkedin fs-4"></i></span></a>
 
-          <div class="footer">
+          <div class="footer pe-lg-5">
             <hr>
             &copy; {{ new Date().getFullYear() }}. Designed and built by yours truly.
           </div>
@@ -105,7 +105,6 @@ a:hover {
 }
 
 .sidenav-container {
-  /* position: fixed; */
   top: 0;
   bottom: 0;
   overflow: scroll;

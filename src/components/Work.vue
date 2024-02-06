@@ -50,11 +50,7 @@
   </div>
 </template>
 
-<script>
-export default {
-    name: "Work",
-
-}
+<script setup>
 </script>
 
 <style scoped>

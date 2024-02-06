@@ -86,12 +86,6 @@
 
 <script setup>
 import WordHeader from './WordHeader.vue';
-function scrollTo() {
-  setTimeout(() => {
-    let scrollId = document.getElementById('contact')
-    scrollId.scrollIntoView()
-  }, 100)
-}
 </script>
 
 <style scoped>

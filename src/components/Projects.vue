@@ -1,15 +1,19 @@
 <template>
-    <div class="pb-5">
+    <div class="pb-3">
         <h2 class="sub-header wrapper" id="project">Projects</h2>
         <h5 class="sub-header wrapper" style="color: #727376">Recent projects</h5>
         <div class="container wrapper" v-for="project in my_projects.slice(0, 3)" :key="project.id">
             <div class="col-lg-9 mb-5">
                 <div class="row">
                     <div class="col-3">
-                        <div :style="{ backgroundImage: 'url(' + require('../assets/images/' + project.background) + ')' }" class="project-image"> </div>
+                        <a :href="project.link" target="_blank">
+                            <div :style="{ backgroundImage: 'url(' + require('../assets/images/' + project.background) + ')' }" class="project-image"> </div>
+                        </a>
                     </div>
                     <div class="col-9">
-                        <p class="work-title">{{ project.title }}</p>
+                        <a :href="project.link" target="_blank">
+                            <p class="work-title">{{ project.title }}</p>
+                        </a>
                         <p class="about-project">{{ project.about }}</p>
                         <span v-for="stack in project.stack" :key="stack.id" class="stack-span badge text-bg-secondary">{{ stack.name }}</span>
 
@@ -27,24 +31,16 @@
             </div>
         </div>
 
-        <span class="d-flex justify-content-center mt-4 mb-5">View all projects in the <RouterLink to="projects/archive"
+        <span class="d-flex justify-content-center mt-4">View all projects in the <RouterLink to="projects/archive"
                 class="archive addChartreuse"> Archive</RouterLink></span>
     </div>
 </template>
 
-<script>
-import { onMounted, ref } from '@vue/runtime-core'
+<script setup>
+import { ref } from '@vue/runtime-core'
 import projects from '@/assets/files/projects.json'
 
-export default {
-    name: 'Projects',
-    setup() {
-        let my_projects = ref(projects.works)
-
-        return { my_projects }
-    }
-
-}
+let my_projects = ref(projects.works)
 </script>
 
 <style scoped>
@@ -70,7 +66,14 @@ a:hover {
 }
 .work-title {
     font-size: 18px;
+    max-width: fit-content;
     color: var(--higlightColor);
+}
+
+.work-title:hover{
+    border-bottom: 1px solid chartreuse;
+    transition: .5s ease;
+    cursor: pointer;
 }
 
 @media only screen and (min-width: 1024px) {

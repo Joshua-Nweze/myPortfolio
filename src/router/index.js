@@ -7,7 +7,7 @@ const routes = [
     name: 'home',
     component: HomeView,
     meta: {
-      title: 'Joshua Nweze'
+      title: 'Home - Joshua Nweze'
     }
   },
   {
@@ -50,7 +50,7 @@ const router = createRouter({
   history: createWebHistory(process.env.BASE_URL),
   routes,
   scrollBehavior(to, from, savedPosition) {
-    return { top: 0, behavior: 'smooth' };
+    return { top: 0, behavior: 'smooth' }
   }
 })
 

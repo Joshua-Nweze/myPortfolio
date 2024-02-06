@@ -1,8 +1,12 @@
 <template>
-    <nav class="nav navbar navbar-expand-lg fixed-top d-lg-none border-bottom border-secondary" id="navbar">
+    <nav
+        class="nav navbar navbar-expand-lg d-lg-none border-bottom border-secondary"
+        id="navbar"
+        ref="navbar"
+    >
         <div class="container">
-            <RouterLink to="/" class="navbar-brand nav-link addChartreuse"
-                >JN</RouterLink
+            <div @click="navigateTo('/')" class="navbar-brand nav-link addChartreuse"
+                >JN</div
             >
 
             <button
@@ -28,7 +32,7 @@
                                 data-bs-target="#navbarNavDropdown"
                                 ref="home"
                             >
-                              <i class="bi bi-house me-2"></i> home
+                                <i class="bi bi-house me-2"></i> home
                             </div>
                         </li>
                         <li class="nav-item">
@@ -37,8 +41,9 @@
                                 @click="navigateTo('/experience')"
                                 data-bs-toggle="collapse"
                                 data-bs-target="#navbarNavDropdown"
+                                ref="experience"
                             >
-                              <i class="bi bi-briefcase me-2"></i> experience
+                                <i class="bi bi-briefcase me-2"></i> experience
                             </div>
                         </li>
                         <li class="nav-item">
@@ -47,6 +52,7 @@
                                 @click="navigateTo('/projects')"
                                 data-bs-toggle="collapse"
                                 data-bs-target="#navbarNavDropdown"
+                                ref="projects"
                             >
                                 <i class="bi bi-cone me-2"></i> projects
                             </div>
@@ -57,8 +63,9 @@
                                 @click="navigateTo('/contact')"
                                 data-bs-toggle="collapse"
                                 data-bs-target="#navbarNavDropdown"
+                                ref="contact"
                             >
-                              <i class="bi bi-person-rolodex me-2"></i>contact
+                                <i class="bi bi-person-rolodex me-2"></i>contact
                             </div>
                         </li>
                         <li class="nav-item ml-5 mr-5">
@@ -66,7 +73,8 @@
                                 class="nav-link"
                                 href="https://drive.google.com/file/d/1zkuq3u0lSqoyRNxGFwT3HfJ2_zt7AtRH/view?usp=sharing"
                                 target="_blank"
-                                ><i class="bi bi-file-earmark me-2"></i> resume</a
+                                ><i class="bi bi-file-earmark me-2"></i>
+                                resume</a
                             >
                         </li>
                     </ul>
@@ -101,12 +109,43 @@
 import { ref } from "vue";
 import { useRouter, useRoute } from "vue-router";
 
-let route = useRoute()
+let route = useRoute();
 let router = useRouter();
 
+let home = ref(null)
+let experience = ref(null)
+let projects = ref(null)
+let contact = ref(null)
+
+let navbar = ref(null)
+
+function styleNavLink() {
+    setTimeout(() => {
+        home.value.classList.remove('router-link-exact-active')
+        experience.value.classList.remove('router-link-exact-active')
+        projects.value.classList.remove('router-link-exact-active')
+        contact.value.classList.remove('router-link-exact-active')
+
+        if (route.path == '/') {
+            home.value.classList.add('router-link-exact-active')
+        }
+        if (route.path == '/experience') {
+            experience.value.classList.add('router-link-exact-active')
+        }
+        if (route.path == '/projects') {
+            projects.value.classList.add('router-link-exact-active')
+        }
+        if (route.path == '/contact') {
+            contact.value.classList.add('router-link-exact-active')
+        }
+    }, 500);
+}
+styleNavLink();
 
 function navigateTo(route) {
     router.push(route);
+
+    styleNavLink();
 }
 </script>
 
@@ -118,7 +157,11 @@ nav {
 
 .navbar {
     transition: 0.5s;
-    /* position: fixed; */
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+    top: 0;
+    right: 0;
 }
 
 .navbar-brand {
@@ -142,5 +185,4 @@ nav {
 .router-link-exact-active {
     color: chartreuse;
 }
-
 </style>
