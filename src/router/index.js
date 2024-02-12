@@ -13,7 +13,7 @@ const routes = [
   {
     path: '/projects/archive',
     name: 'archive',
-    component: import(/* webpackChunkName: "archive" */ '../views/ArchiveView.vue'),
+    component: () => import(/* webpackChunkName: "archive" */ '../views/ArchiveView.vue'),
     meta: {
       title: 'Archive - Joshua Nweze'
     }
