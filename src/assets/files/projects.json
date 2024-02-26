@@ -1,8 +1,34 @@
 {
     "works" :[
         {
+            "title": "The Saints Gathering Church",
+            "about": "Website redesign for The Saints Gathering Church, updating UI and adding new features.",
+            "background": "tsg.png",
+            "link": "https://tsg-test.netlify.app/",
+            "year": 2024,
+            "stack": [
+                { "id": 1, "name": "VueJs"},
+                { "id": 2, "name": "TailwindCSS"},
+                { "id": 3, "name": "Firebase"},
+                { "id": 4, "name": "Firestore"}
+            ]
+        },
+        {
+            "title": "The Saints Gathering Church admin panel",
+            "about": "Admin panel for The Saints Gathering Church to upload, edit and delete sermons, events and devotionals.",
+            "background": "tsg-admin.png",
+            "link": "https://tsg-admin.netlify.app/",
+            "year": 2024,
+            "stack": [
+                { "id": 1, "name": "VueJs"},
+                { "id": 2, "name": "TailwindCSS"},
+                { "id": 3, "name": "Firebase"},
+                { "id": 4, "name": "Firestore"}
+            ]
+        },
+        {
             "title": "Dictionary webapp",
-            "about": "An online dictionary for searching word definitions.",
+            "about": "An online dictionary for searching word definitions. Inspiration from Frontend Mentor.",
             "background": "dictionary.jpg",
             "link": "https://seewords.netlify.app/",
             "github": "https://github.com/Joshua-Nweze/WordDictionary",
