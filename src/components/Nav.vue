@@ -71,7 +71,7 @@
                         <li class="nav-item ml-5 mr-5">
                             <a
                                 class="nav-link"
-                                href="https://drive.google.com/file/d/1zkuq3u0lSqoyRNxGFwT3HfJ2_zt7AtRH/view?usp=sharing"
+                                href="https://drive.google.com/file/d/1JZNSSXQ5jt24N4W-LDwmVvlFmAY1qPYw/view?usp=sharing"
                                 target="_blank"
                                 ><i class="bi bi-file-earmark me-2"></i>
                                 resume</a

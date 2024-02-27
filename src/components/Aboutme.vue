@@ -10,7 +10,7 @@
       <div>I am a Full Stack Developer</div>
 
       <div class="pt-5">
-        <a href="https://drive.google.com/file/d/1XycFytS8M1zuRA4DQHm0UweyO9U7sSUd/view?usp=sharing" target="_blank"><span class="front-btn">resume</span></a>
+        <a href="https://drive.google.com/file/d/1JZNSSXQ5jt24N4W-LDwmVvlFmAY1qPYw/view?usp=sharing" target="_blank"><span class="front-btn">resume</span></a>
         <RouterLink to="/contact"><span class="front-btn">contact</span></RouterLink>
       </div>
     </div>
