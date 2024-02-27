@@ -27,6 +27,22 @@
             ]
         },
         {
+            "title": "Projects dashboard",
+            "about": "A web application where the admin can track the progress of a project managed by a staff.",
+            "background": "project-dashboard.png",
+            "link": "https://pdashboardd.netlify.app/",
+            "github": "https://github.com/Joshua-Nweze/project-dashboard",
+            "video": "https://drive.google.com/file/d/1-NopqQKk8GC0UX4NcS0DkylsKTZcaUjT/view?usp=sharing",
+            "year": 2023,
+            "stack": [
+                { "id": 1, "name": "VueJs"},
+                { "id": 2, "name": "Bootstrap"},
+                { "id": 3, "name": "NodeJs"},
+                { "id": 4, "name": "ExpressJs"},
+                { "id": 5, "name": "MongoDB"}
+            ]
+        },
+        {
             "title": "Dictionary webapp",
             "about": "An online dictionary for searching word definitions. Inspiration from Frontend Mentor.",
             "background": "dictionary.jpg",

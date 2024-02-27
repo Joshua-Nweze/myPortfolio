@@ -2,7 +2,7 @@
     <div class="pb-3">
         <h2 class="sub-header wrapper" id="project">Projects</h2>
         <h5 class="sub-header wrapper" style="color: #727376">Recent projects</h5>
-        <div class="container wrapper" v-for="project in my_projects.slice(0, 3)" :key="project.id">
+        <div class="container wrapper" v-for="project in my_projects.slice(0, 4)" :key="project.id">
             <div class="col-lg-9 mb-5">
                 <div class="row">
                     <div class="col-3">
@@ -24,6 +24,10 @@
 
                             <a :href="project.link" class="stack-span" target="_blank" v-if="project.link">
                                 <i class="bi bi-link-45deg fs-3"></i><br>
+                            </a>
+
+                            <a :href="project.video" class="stack-span" target="_blank" v-if="project.video">
+                                <i class="bi bi-file-play fs-3"></i><br>
                             </a>
                         </div>
                     </div>

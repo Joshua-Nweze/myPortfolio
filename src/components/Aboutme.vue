@@ -52,6 +52,7 @@
                     <li>NuxtJs</li>
                     <li>Bootstrap</li>
                     <li>Tailwind</li>
+                    <li>NodeJs</li>
                     <li>ExpressJs</li>
                   </ul>
                 </div>
