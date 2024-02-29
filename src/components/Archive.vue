@@ -16,16 +16,16 @@
             <div class="col-4 col-md-3">
                 <div class="row d-flex justify-content-start align-items-center">
                     <a :href="project.github" class="link" target="_blank" v-if="project.github">
-                        <i class="bi bi-github"></i><br>
+                        <i class="bi bi-github fs-3"></i><br>
                     </a>
 
                     <a :href="project.link" class="link" target="_blank" v-if="project.link">
-                        <i class="bi bi-link-45deg"></i><br>
+                        <i class="bi bi-link-45deg fs-3"></i><br>
                     </a>
 
                     <a :href="project.video" class="link" target="_blank" v-if="project.video">
                         <i class="bi bi-file-play fs-3"></i><br>
-                    </a>
+                    </a>                    
                 </div>
             </div>
         </div>
