@@ -2,30 +2,30 @@
     <div class="container">
         <h1 class="d-flex justify-content-center mb-4 addChartreuse">Projects Archive</h1>
 
-        <div class="row sub-head d-flex justify-content-center">
-            <div class="col-9 col-md-3 col-lg-2 sub-head">Name</div>
-            <div class="col-md-3 col-lg-2 d-none d-md-block sub-head">Year</div>
-            <div class="col-md-3 d-none d-md-block col-lg-3 sub-head">Stack</div>
-            <div class="col-3 col-md-3 col-lg-1 sub-head">Link(s)</div>
+        <div class="row">
+            <div class="col-8 col-md-4  sub-head">Name</div>
+            <div class="col-md-1 d-none d-md-block sub-head">Year</div>
+            <div class="col-md-4 d-none d-md-block sub-head">Stack</div>
+            <div class="col-4 col-md-3 sub-head">Link(s)</div>
         </div>
 
         <div class="row mt-3 mb-4 d-flex justify-content-center" v-for="project in my_projects" :key="project.id">
-            <div class="col-9 col-md-3 col-lg-2 project-detail"><strong> {{ project.title }} </strong></div>
-            <div class="col-md-3 col-lg-2 d-none d-md-block">{{ project.year }}</div>
-            <div class="col-md-3 col-lg-3 d-none d-md-block"><span v-for="stack in project.stack" :key="stack.id" class="stack-span project-detail">{{ stack.name }}</span></div>
-            <div class="col-3 col-md-3 col-lg-1">
-                <div class="row d-flex justify-content-start">
-                    <div class="col-4">
-                        <a :href="project.github" class="mt-4 link" target="_blank" v-if="project.github">
-                            <i class="bi bi-github"></i><br>
-                        </a>
-                    </div>
+            <div class="col-8 col-md-4 project-detail"><strong> {{ project.title }} </strong></div>
+            <div class="col-md-1 d-none d-md-block">{{ project.year }}</div>
+            <div class="col-md-4 d-none d-md-block"><span v-for="stack in project.stack" :key="stack.id" class="stack-span project-detail">{{ stack.name }}</span></div>
+            <div class="col-4 col-md-3">
+                <div class="row d-flex justify-content-start align-items-center">
+                    <a :href="project.github" class="link" target="_blank" v-if="project.github">
+                        <i class="bi bi-github"></i><br>
+                    </a>
 
-                    <div class="col-4 ms-2">
-                        <a :href="project.link" class="mt-4 link" target="_blank" v-if="project.link">
-                            <i class="bi bi-link-45deg"></i><br>
-                        </a>
-                    </div>
+                    <a :href="project.link" class="link" target="_blank" v-if="project.link">
+                        <i class="bi bi-link-45deg"></i><br>
+                    </a>
+
+                    <a :href="project.video" class="link" target="_blank" v-if="project.video">
+                        <i class="bi bi-file-play fs-3"></i><br>
+                    </a>
                 </div>
             </div>
         </div>
