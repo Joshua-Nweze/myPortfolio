@@ -4,7 +4,7 @@
             "title": "The Saints Gathering Church",
             "about": "Website redesign for The Saints Gathering Church, new UI and new features.",
             "background": "tsg.png",
-            "link": "https://tsg-test.netlify.app/",
+            "link": "https://thesaintsgathering.org/",
             "year": 2024,
             "stack": [
                 { "id": 1, "name": "VueJs"},
@@ -17,7 +17,7 @@
             "title": "The Saints Gathering Church admin panel",
             "about": "Admin panel for The Saints Gathering Church to upload, edit and delete sermons, events and devotionals.",
             "background": "tsg-admin.png",
-            "link": "https://tsg-admin.netlify.app/",
+            "link": "https://admin.thesaintsgathering.org/",
             "year": 2024,
             "stack": [
                 { "id": 1, "name": "VueJs"},
