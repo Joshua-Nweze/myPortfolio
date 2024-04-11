@@ -11,7 +11,7 @@
             <RouterLink to="/experience" class="link"><i class="bi bi-briefcase me-2"></i> experience</RouterLink>
             <RouterLink to="/projects" class="link"><i class="bi bi-cone me-2"></i> projects</RouterLink>
             <RouterLink to="/contact" class="link"><i class="bi bi-person-rolodex me-2"></i> contact</RouterLink>
-            <a href="https://drive.google.com/file/d/1JZNSSXQ5jt24N4W-LDwmVvlFmAY1qPYw/view?usp=sharing" target="_blank" class="nav-link"><i class="bi bi-file-earmark me-2"></i> resume</a>
+            <a href="https://drive.google.com/file/d/1FLIJcPVAH60Fytx3AF6w7-cMfI_CSic_/view?usp=sharing" target="_blank" class="nav-link"><i class="bi bi-file-earmark me-2"></i> resume</a>
           </div>
         </div>
 

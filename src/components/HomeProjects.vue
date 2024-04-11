@@ -20,7 +20,7 @@
                             The Saints Gathering Church
                         </p>
                         <p class="about-project">
-                            Website redesign for The Saints Gathering Church,
+                            Website re-design for The Saints Gathering Church,
                             new UI and new features. Users can now download
                             sermons and devotionals.
                         </p>
