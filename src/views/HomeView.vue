@@ -1,12 +1,14 @@
 <template>
   <div id="parent">
     <Aboutme />
+    <HomeProjects />
   </div>
   <Footer />
 </template>
 
 <script setup>
 import Aboutme from '@/components/Aboutme.vue';
+import HomeProjects from '@/components/HomeProjects.vue'
 import { onMounted } from 'vue';
 
 function scrollTo(id) {
