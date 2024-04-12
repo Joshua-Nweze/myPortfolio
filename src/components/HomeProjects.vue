@@ -10,6 +10,33 @@
                             <img
                                 style="height: 100%"
                                 class="img-fluid"
+                                src="../assets/images/tcmp.png"
+                                alt=""
+                            />
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <p class="work-title">
+                            TCMP
+                        </p>
+                        <p class="about-project">
+                            TCMP is a platform that provides remote healthcare services. My team and I re-designed TCMP website and dashboard, we implemented new UI and features. We optimized the code and API to ensure an amazing user experience.
+                        </p>
+                        
+                        <div>
+                            <a href="https://www.oautcmp.com/" target="_blank" class="view"> View project </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-lg-12 mt-5 mb-5">
+                <div class="mt-3 row">
+                    <div class=" col-lg-6">
+                        <div class="">
+                            <img
+                                style="height: 100%"
+                                class="img-fluid"
                                 src="../assets/images/tsg.png"
                                 alt=""
                             />
@@ -31,34 +58,6 @@
                     </div>
                 </div>
             </div>
-
-            <div class="col-lg-12 mt-5 mb-5">
-                <div class="mt-3 row">
-                    <div class=" col-lg-6">
-                        <div class="">
-                            <img
-                                style="height: 100%"
-                                class="img-fluid"
-                                src="../assets/images/project-dashboard.png"
-                                alt=""
-                            />
-                        </div>
-                    </div>
-                    <div class="col-lg-6">
-                        <p class="work-title">
-                            Projects dashboard
-                        </p>
-                        <p class="about-project">
-                            A web application where the admin can track the progress of a project managed by a staff.
-                        </p>
-
-                        <div>
-                            <a href="https://pdashboardd.netlify.app/" target="_blank" class="view"> View project </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
         </div>
 
         <div class="see-more">

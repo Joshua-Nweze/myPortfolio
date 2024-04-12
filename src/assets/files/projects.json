@@ -1,6 +1,21 @@
 {
     "works" :[
         {
+            "title": "TCMP (Total Care Management Platform)",
+            "about": "TCMP is a platform that provides remote healthcare services. My team and I re-designed TCMP website and dashboard, we implemented new UI and features. We optimized the code and API to ensure an amazing user experience.",
+            "background": "tcmp.png",
+            "link": "https://www.oautcmp.com/",
+            "year": 2024,
+            "stack": [
+                { "id": 1, "name": "VueJs"},
+                { "id": 2, "name": "TailwindCSS"},
+                { "id": 3, "name": "NodeJs"},
+                { "id": 4, "name": "ExpressJs"},
+                { "id": 5, "name": "Knex"},
+                { "id": 6, "name": "Postgres"}
+            ]
+        },
+        {
             "title": "The Saints Gathering Church",
             "about": "Website re-design for The Saints Gathering Church, new UI and new features. Users can now download sermons and devotionals.",
             "background": "tsg.png",
