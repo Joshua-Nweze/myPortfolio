@@ -71,7 +71,7 @@
                         <li class="nav-item ml-5 mr-5">
                             <a
                                 class="nav-link"
-                                href="https://drive.google.com/file/d/1kiWAO_-z9lFk773cOt5RW1SrAW_8rdpk/view?usp=sharing"
+                                :href="resumeLink"
                                 target="_blank"
                                 ><i class="bi bi-file-earmark me-2"></i>
                                 resume</a
@@ -106,11 +106,13 @@
 </template>
 
 <script setup>
-import { ref } from "vue";
+import { inject, ref } from "vue";
 import { useRouter, useRoute } from "vue-router";
 
 let route = useRoute();
 let router = useRouter();
+
+let resumeLink = inject('resumeLink')
 
 let home = ref(null)
 let experience = ref(null)

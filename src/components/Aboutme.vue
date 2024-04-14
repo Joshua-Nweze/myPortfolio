@@ -10,7 +10,7 @@
       <div>I am a Full Stack Developer</div>
 
       <div class="pt-5">
-        <a href="https://drive.google.com/file/d/1kiWAO_-z9lFk773cOt5RW1SrAW_8rdpk/view?usp=sharing" target="_blank"><span class="front-btn">resume</span></a>
+        <a :href="resumeLink" target="_blank"><span class="front-btn">resume</span></a>
         <RouterLink to="/contact"><span class="front-btn">contact</span></RouterLink>
       </div>
     </div>
@@ -87,7 +87,10 @@
 </template>
 
 <script setup>
+import { inject } from 'vue';
 import WordHeader from './WordHeader.vue';
+
+let resumeLink = inject('resumeLink')
 </script>
 
 <style scoped>

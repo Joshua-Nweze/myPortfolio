@@ -11,7 +11,7 @@
             <RouterLink to="/experience" class="link"><i class="bi bi-briefcase me-2"></i> experience</RouterLink>
             <RouterLink to="/projects" class="link"><i class="bi bi-cone me-2"></i> projects</RouterLink>
             <RouterLink to="/contact" class="link"><i class="bi bi-person-rolodex me-2"></i> contact</RouterLink>
-            <a href="https://drive.google.com/file/d/1kiWAO_-z9lFk773cOt5RW1SrAW_8rdpk/view?usp=sharing" target="_blank" class="nav-link"><i class="bi bi-file-earmark me-2"></i> resume</a>
+            <a :href="resumeLink" target="_blank" class="nav-link"><i class="bi bi-file-earmark me-2"></i> resume</a>
           </div>
         </div>
 
@@ -44,6 +44,10 @@
 <script setup>
 import Nav from './components/Nav.vue';
 import Footer from './components/Footer.vue';
+import { provide, ref } from 'vue';
+
+provide('resumeLink', 'https://drive.google.com/file/d/1kiWAO_-z9lFk773cOt5RW1SrAW_8rdpk/view?usp=sharing')
+let resumeLink = ref('https://drive.google.com/file/d/1kiWAO_-z9lFk773cOt5RW1SrAW_8rdpk/view?usp=sharing')
 </script>
 
 <style>
