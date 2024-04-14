@@ -1,6 +1,6 @@
 <template>
   <div class="pb-5" id="work">
-    <h3 class="sub-header">Work</h3>
+    <h3 class="sub-header">Experience</h3>
     <h5 class="mb-4">Where I have worked</h5>
 
     <div class="row justify-content-center text-start mt-3">
@@ -35,7 +35,7 @@
                   </div>
 
                   <div class="mt-3">
-                    <div>Intern Frontend developer <span class="addChartreuse">Mexygabriel</span></div>
+                    <div>Intern Frontend developer at <span class="addChartreuse">Mexygabriel</span></div>
                     <div class="date">January 2023 - July 2023</div>
                   </div>
 
@@ -99,6 +99,7 @@
 
 .nav-link.active{
   color: chartreuse;
+  background: rgba(128, 255, 0, 0.257);
 }
 
 .date{
@@ -124,5 +125,8 @@
 li::marker {
   /* list-style: disc; */
   color: chartreuse
+}
+.addChartreuse{
+  color: chartreuse;
 }
 </style>

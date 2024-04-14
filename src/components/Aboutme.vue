@@ -70,6 +70,7 @@
                   <h6 class="addChartreuse">Database</h6>
                   <ul type='circle'>
                     <li>MongoDB</li>
+                    <li>Postgres</li>
                   </ul>
                 </div>
               </div>
