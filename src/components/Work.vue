@@ -17,7 +17,7 @@
               <!-- job1 -->
               <div class="tab-pane fade show active" id="nav-job1" name="tabpanel" aria-labelledby="nav-job1-tab" tabindex="0">
                 <div>Full Stack developer (contract) at <span class="addChartreuse">TCMP (Total Care Management Platform)</span></div>
-                  <div class="date">March 2024 - present</div>
+                  <div class="date">March 2024 - April 2024</div>
                   <div class="mt-3">
                     <ul>
                       <li>TCMP is a teleheath platform that connects users to doctors</li>

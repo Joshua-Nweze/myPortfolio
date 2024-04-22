@@ -46,8 +46,8 @@ import Nav from './components/Nav.vue';
 import Footer from './components/Footer.vue';
 import { provide, ref } from 'vue';
 
-provide('resumeLink', 'https://drive.google.com/file/d/1kiWAO_-z9lFk773cOt5RW1SrAW_8rdpk/view?usp=sharing')
-let resumeLink = ref('https://drive.google.com/file/d/1kiWAO_-z9lFk773cOt5RW1SrAW_8rdpk/view?usp=sharing')
+provide('resumeLink', 'https://drive.google.com/file/d/1xOZnuoQ3WW3HZV9wgtw9gMB1BKGHFXzq/view?usp=sharing')
+let resumeLink = ref('https://drive.google.com/file/d/1xOZnuoQ3WW3HZV9wgtw9gMB1BKGHFXzq/view?usp=sharing')
 </script>
 
 <style>
