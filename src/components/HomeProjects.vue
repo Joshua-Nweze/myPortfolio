@@ -34,7 +34,7 @@
                     <div class=" col-lg-6">
                         <div class="">
                             <img
-                                style="height: 100%"
+                                style="max-width: 83vw;"
                                 class="img-fluid"
                                 src="../assets/images/tsg.png"
                                 alt=""
