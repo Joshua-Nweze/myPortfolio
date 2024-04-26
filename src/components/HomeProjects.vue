@@ -8,8 +8,7 @@
                     <div class=" col-lg-6">
                         <div class="">
                             <img
-                                style="height: 100%"
-                                class="img-fluid"
+                                style="max-width: 83vw;"
                                 src="../assets/images/tcmp.png"
                                 alt=""
                             />
