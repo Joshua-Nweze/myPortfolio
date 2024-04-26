@@ -187,4 +187,8 @@ nav {
 .router-link-exact-active {
     color: chartreuse;
 }
+
+.nav-link:hover{
+    cursor: pointer;
+}
 </style>

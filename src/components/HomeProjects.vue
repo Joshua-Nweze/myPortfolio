@@ -46,9 +46,7 @@
                             The Saints Gathering Church
                         </p>
                         <p class="about-project">
-                            Website for The Saints Gathering Church,
-                            new UI and new features. Users can now download
-                            sermons and devotionals.
+                            Website for The Saints Gathering Church with exciting features like downloadable sermons and devotionals.
                         </p>
 
                         <div>
