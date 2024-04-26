@@ -8,7 +8,7 @@
                     <div class=" col-lg-6">
                         <div class="">
                             <img
-                                style="max-width: 83vw;"
+                                style="max-width: 100%;"
                                 src="../assets/images/tcmp.png"
                                 alt=""
                             />
@@ -34,7 +34,7 @@
                     <div class=" col-lg-6">
                         <div class="">
                             <img
-                                style="max-width: 83vw;"
+                                style="max-width: 100%;"
                                 class="img-fluid"
                                 src="../assets/images/tsg.png"
                                 alt=""
