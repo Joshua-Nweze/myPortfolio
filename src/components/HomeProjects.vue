@@ -9,21 +9,21 @@
                         <div class="">
                             <img
                                 style="max-width: 100%;"
-                                src="../assets/images/tcmp.png"
+                                src="../assets/images/cecyhealth.png"
                                 alt=""
                             />
                         </div>
                     </div>
                     <div class="col-lg-6">
                         <p class="work-title">
-                            TCMP
+                            CecyHealth
                         </p>
                         <p class="about-project">
-                            TCMP is a platform that provides remote healthcare services. My team and I re-designed TCMP website and dashboard, we implemented new UI and features. We optimized the code and API to ensure an amazing user experience.
+                            CecyHealth is a healthcare organization with a passion to bring Quality and affordable healthcare to all parts of Africa.
                         </p>
                         
                         <div>
-                            <a href="https://www.oautcmp.com/" target="_blank" class="view"> View project </a>
+                            <a href="https://www.cecyhealth.com/" target="_blank" class="view"> View project </a>
                         </div>
                     </div>
                 </div>

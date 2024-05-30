@@ -1,6 +1,19 @@
 {
     "works" :[
         {
+            "title": "CecyHealth",
+            "about": "CecyHealth is a healthcare organization with a passion to bring Quality and affordable healthcare to all parts of Africa.",
+            "background": "cecyhealth.png",
+            "link": "https://cecyhealth.com/",
+            "year": 2024,
+            "stack": [
+                { "id": 1, "name": "VueJs"},
+                { "id": 2, "name": "TailwindCSS"},
+                { "id": 3, "name": "NodeJs"},
+                { "id": 4, "name": "ExpressJs"}
+            ]
+        },
+        {
             "title": "TCMP (Total Care Management Platform)",
             "about": "TCMP is a platform that provides remote healthcare services. My team and I re-designed TCMP website and dashboard, we implemented new UI and features. We optimized the code and API to ensure an amazing user experience.",
             "background": "tcmp.png",

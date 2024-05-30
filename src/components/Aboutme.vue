@@ -7,7 +7,7 @@
 
       <div>Hi there 👋🏽, my name is</div>
       <div class="addChartreuse name">Joshua Nweze</div>
-      <div>I am a Full Stack Developer</div>
+      <div class="what-i-do">I am a Full Stack Developer</div>
 
       <div class="pt-5">
         <a :href="resumeLink" target="_blank"><span class="front-btn">resume</span></a>
@@ -99,6 +99,9 @@ let resumeLink = inject('resumeLink')
   .name {
     font-size: 40px;
   }
+  .what-i-do {
+    font-size: 25px;
+  }
 
   .my-image{
     width: 240px;
@@ -118,6 +121,9 @@ let resumeLink = inject('resumeLink')
   .name {
     font-size: 60px;
   }
+  .what-i-do {
+    font-size: 30px;
+  }
 
   .my-image{
     width: 260px;
@@ -135,6 +141,10 @@ let resumeLink = inject('resumeLink')
   .name {
     font-size: 80px;
   }
+  .what-i-do {
+    font-size: 40px;
+  }
+
 
   .my-image{
     width: 300px;

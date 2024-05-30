@@ -2,31 +2,34 @@
     <div class="pb-3">
         <h2 class="sub-header wrapper" id="project">Projects</h2>
         <h5 class="sub-header wrapper" style="color: #727376">Recent projects</h5>
+
         <div class="container wrapper" v-for="project in my_projects.slice(0, 4)" :key="project.id">
-            <div class="col-lg-9 mb-5">
-                <div class="row">
-                    <div class="col-3">
+            <div class="mb-5">
+                <div class="row gap row-gap-5">
+                    <div class="col-12 col-md-6 col-lg-5">
                         <a :href="project.link" target="_blank">
                             <div :style="{ backgroundImage: 'url(' + require('../assets/images/' + project.background) + ')' }" class="project-image"> </div>
                         </a>
                     </div>
-                    <div class="col-9">
+                    <div class="col-12 col-md-6 col-lg-7 mt-2">
                         <a :href="project.link" target="_blank">
                             <p class="work-title">{{ project.title }}</p>
                         </a>
                         <p class="about-project">{{ project.about }}</p>
-                        <span v-for="stack in project.stack" :key="stack.id" class="stack-span badge text-bg-secondary">{{ stack.name }}</span>
+                        <div class="d-flex gap-2 stack-span-container">
+                            <span v-for="stack in project.stack" :key="stack.id" class="stack-span badge text-bg-secondary">{{ stack.name }}</span>
+                        </div>
 
-                        <div>
-                            <a :href="project.github" class="stack-span" target="_blank" v-if="project.github">
+                        <div class="stack-span-container mt-4">
+                            <a :href="project.github" target="_blank" v-if="project.github">
                                 <i class="bi bi-github fs-3"></i><br>
                             </a>
 
-                            <a :href="project.link" class="stack-span" target="_blank" v-if="project.link">
+                            <a :href="project.link" target="_blank" v-if="project.link">
                                 <i class="bi bi-link-45deg fs-3"></i><br>
                             </a>
 
-                            <a :href="project.video" class="stack-span" target="_blank" v-if="project.video">
+                            <a :href="project.video" target="_blank" v-if="project.video">
                                 <i class="bi bi-file-play fs-3"></i><br>
                             </a>
                         </div>
@@ -87,12 +90,12 @@ a:hover {
     }
 }
 
-.stack-span {
-    margin-left: 10px;
-    display: inline-flex;
+.stack-span-container {
     flex-wrap: wrap;
+}
+
+.stack-span {
     padding-top: 8px;
-    margin-bottom: 10px;
 }
 
 .sub-header {
@@ -109,7 +112,7 @@ a:hover {
 
 .project-image {
     background-size: cover;
-    height: 60px;
+    height: 200px;
     background-position: center;
     background-repeat: no-repeat;
     border-radius: 10px;
