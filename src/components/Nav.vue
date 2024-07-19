@@ -74,7 +74,7 @@
                                 :href="resumeLink"
                                 target="_blank"
                                 ><i class="bi bi-file-earmark me-2"></i>
-                                resume</a
+                                résumé</a
                             >
                         </li>
                     </ul>
@@ -106,13 +106,13 @@
 </template>
 
 <script setup>
-import { inject, ref } from "vue";
+import { ref } from "vue";
 import { useRouter, useRoute } from "vue-router";
 
 let route = useRoute();
 let router = useRouter();
 
-let resumeLink = inject('resumeLink')
+let resumeLink = process.env.VUE_APP_RESUME_LINK
 
 let home = ref(null)
 let experience = ref(null)

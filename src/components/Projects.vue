@@ -38,7 +38,7 @@
             </div>
         </div>
 
-        <span class="d-flex justify-content-center my-4">View all projects in the <RouterLink to="projects/archive"
+        <span class="d-flex justify-content-center my-4">View all projects in the <RouterLink to="archive"
                 class="archive addChartreuse"> Archive</RouterLink></span>
     </div>
 </template>

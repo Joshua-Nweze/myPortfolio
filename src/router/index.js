@@ -1,49 +1,58 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
+import DefaultLayout from '../layouts/default.vue'
 
 const routes = [
   {
     path: '/',
-    name: 'home',
-    component: HomeView,
-    meta: {
-      title: 'Home - Joshua Nweze'
-    }
+    component: DefaultLayout,
+    children: [
+      {
+        path: '/',
+        name: 'home',
+        component: HomeView,
+        meta: {
+          title: 'Home - Joshua Nweze'
+        }
+      },
+      {
+        path: '/experience',
+        name: 'experience',
+        component: () => import(/* webpackChunkName: "experience" */ '../views/ExperienceView.vue'),
+        meta: {
+          title: 'Experience - Joshua Nweze'
+        }
+      }
+      ,
+      {
+        path: '/projects',
+        name: 'projects',
+        component: () => import(/* webpackChunkName: "projects" */ '../views/ProjectsView.vue'),
+        meta: {
+          title: 'Projects - Joshua Nweze'
+        }
+      }
+      ,
+      {
+        path: '/contact',
+        name: 'contact',
+        component: () => import(/* webpackChunkName: "contact" */ '../views/ContactView.vue'),
+        meta: {
+          title: 'Contact - Joshua Nweze'
+        }
+      }
+    ]
   },
+
   {
-    path: '/projects/archive',
+    path: '/archive',
     name: 'archive',
     component: () => import(/* webpackChunkName: "archive" */ '../views/ArchiveView.vue'),
     meta: {
       title: 'Archive - Joshua Nweze'
     }
   },
-  {
-    path: '/experience',
-    name: 'experience',
-    component: () => import(/* webpackChunkName: "experience" */ '../views/ExperienceView.vue'),
-    meta: {
-      title: 'Experience - Joshua Nweze'
-    }
-  }
-  ,
-  {
-    path: '/projects',
-    name: 'projects',
-    component: () => import(/* webpackChunkName: "projects" */ '../views/ProjectsView.vue'),
-    meta: {
-      title: 'Projects - Joshua Nweze'
-    }
-  }
-  ,
-  {
-    path: '/contact',
-    name: 'contact',
-    component: () => import(/* webpackChunkName: "contact" */ '../views/ContactView.vue'),
-    meta: {
-      title: 'Contact - Joshua Nweze'
-    }
-  }
+  
 ]
 
 const router = createRouter({

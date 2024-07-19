@@ -1,8 +1,12 @@
 <template>
     <div class="container">
-        <h1 class="d-flex justify-content-center mb-4 addChartreuse">Projects Archive</h1>
+        <RouterLink to="/" class="addChartreuse backToPortfolio">
+            <i class="bi bi-arrow-left-short backIcon"></i>
+            <span>Joshua Nweze</span>
+        </RouterLink>
+        <h1 class="d-flex mb-4 text-gray">Projects Archive</h1>
 
-        <div class="row">
+        <div class="row text-gray">
             <div class="col-8 col-md-4  sub-head">Name</div>
             <div class="col-md-1 d-none d-md-block sub-head">Year</div>
             <div class="col-md-4 d-none d-md-block sub-head">Stack</div>
@@ -10,9 +14,9 @@
         </div>
 
         <div class="row mt-3 mb-4 d-flex justify-content-center" v-for="project in my_projects" :key="project.id">
-            <div class="col-8 col-md-4 project-detail"><strong> {{ project.title }} </strong></div>
+            <div class="col-8 col-md-4 project-detail text-gray"><strong> {{ project.title }} </strong></div>
             <div class="col-md-1 d-none d-md-block">{{ project.year }}</div>
-            <div class="col-md-4 d-none d-md-block"><span v-for="stack in project.stack" :key="stack.id" class="stack-span project-detail">{{ stack.name }}</span></div>
+            <div class="col-md-4 d-none d-md-block"><span v-for="stack in project.stack" :key="stack.id" class="stack-span badge text-bg-secondary project-detail">{{ stack.name }}</span></div>
             <div class="col-4 col-md-3">
                 <div class="row d-flex justify-content-start align-items-center">
                     <a :href="project.github" class="link" target="_blank" v-if="project.github">
@@ -35,6 +39,7 @@
 <script setup>
 import projects from "@/assets/files/projects.json";
 import { ref } from '@vue/reactivity';
+import { RouterLink } from "vue-router";
 
 
 let my_projects = ref(projects.works)
@@ -62,5 +67,22 @@ let my_projects = ref(projects.works)
 
 .project-detail{
     word-wrap: break-word;
+}
+
+.text-gray {
+    color: rgb(228, 226, 226)
+}
+
+.backToPortfolio:hover{
+    .backIcon{
+        transition: .3s ease;
+        padding-right: 10px;
+        padding-left: 0;
+    }
+}
+
+.backIcon{
+    padding-left: 10px;
+    transition: .3s ease;
 }
 </style>

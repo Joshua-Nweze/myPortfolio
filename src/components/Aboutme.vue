@@ -10,7 +10,7 @@
       <div class="what-i-do">I am a Full Stack Developer</div>
 
       <div class="pt-5">
-        <a :href="resumeLink" target="_blank"><span class="front-btn">resume</span></a>
+        <a :href="resumeLink" target="_blank"><span class="front-btn">résumé</span></a>
         <RouterLink to="/contact"><span class="front-btn">contact</span></RouterLink>
       </div>
     </div>
@@ -27,7 +27,7 @@
 
         <div>
 
-            <p>Hello there! 👋, I am a passionate Full Stack Developer with an eye for creating robust and scalable websites and web applications. I enjoy using my expertise in front-end and back-end technology to bring creative ideas to life.</p>
+            <p>Hello there! 👋, I am a passionate Full Stack Developer with an eye for creating robust and scalable websites and web applications. I enjoy using my expertise in front-end and back-end development in bringing creative ideas to life.</p>
 
             <p>I am still on  the journey of learning and discovering new things in the world of tech.</p>
 
@@ -50,6 +50,7 @@
                   <ul type='circle'>
                     <li>VueJs</li>
                     <li>NuxtJs</li>
+                    <li>React</li>
                     <li>Bootstrap</li>
                     <li>Tailwind</li>
                     <li>NodeJs</li>
@@ -70,7 +71,7 @@
                   <h6 class="addChartreuse">Database</h6>
                   <ul type='circle'>
                     <li>MongoDB</li>
-                    <li>Postgres</li>
+                    <li>PostgresSQL</li>
                   </ul>
                 </div>
               </div>
@@ -87,10 +88,9 @@
 </template>
 
 <script setup>
-import { inject } from 'vue';
 import WordHeader from './WordHeader.vue';
 
-let resumeLink = inject('resumeLink')
+let resumeLink = process.env.VUE_APP_RESUME_LINK
 </script>
 
 <style scoped>
