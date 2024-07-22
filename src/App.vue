@@ -78,11 +78,11 @@ a:hover {
     left: -860px;
     z-index: 1000;
     transition-property: all;
-    transition-duration: 100ms;
+    transition-duration: 150ms;
     background: radial-gradient(
         600px at 871px 726.6px,
         rgba(29, 78, 216, 0.15),
-        transparent 80%
+        transparent 90%
     );
 }
 

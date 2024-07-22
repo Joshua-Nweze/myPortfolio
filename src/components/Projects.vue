@@ -3,7 +3,7 @@
         <h2 class="sub-header wrapper" id="project">Projects</h2>
         <h5 class="sub-header wrapper" style="color: #727376">Recent projects</h5>
 
-        <div class="container wrapper" v-for="project in my_projects.slice(0, 4)" :key="project.id">
+        <div class="container wrapper" v-for="project in my_projects.slice(0, 3)" :key="project.id">
             <div class="mb-5">
                 <div class="row gap row-gap-5">
                     <div class="col-12 col-md-6 col-lg-5">
