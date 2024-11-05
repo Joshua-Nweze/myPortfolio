@@ -68,6 +68,17 @@
                                 <i class="bi bi-person-rolodex me-2"></i>contact
                             </div>
                         </li>
+                        <li class="nav-item">
+                            <div
+                                class="nav-link"
+                                @click="navigateTo('/certifications')"
+                                data-bs-toggle="collapse"
+                                data-bs-target="#navbarNavDropdown"
+                                ref="contact"
+                            >
+                                <i class="bi bi-folder me-2"></i>certifications
+                            </div>
+                        </li>
                         <li class="nav-item ml-5 mr-5">
                             <a
                                 class="nav-link"

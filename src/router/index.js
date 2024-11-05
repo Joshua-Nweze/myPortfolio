@@ -4,6 +4,7 @@ import DefaultLayout from '../layouts/default.vue'
 import ExperienceView from '../views/ExperienceView.vue'
 import ProjectsView from '../views/ProjectsView.vue'
 import ContactView from '../views/ContactView.vue'
+import CertificationsView from '@/views/CertificationsView.vue'
 
 const routes = [
   {
@@ -25,8 +26,7 @@ const routes = [
         meta: {
           title: 'Experience - Joshua Nweze'
         }
-      }
-      ,
+      },
       {
         path: '/projects',
         name: 'projects',
@@ -34,14 +34,21 @@ const routes = [
         meta: {
           title: 'Projects - Joshua Nweze'
         }
-      }
-      ,
+      },
       {
         path: '/contact',
         name: 'contact',
         component: ContactView,
         meta: {
           title: 'Contact - Joshua Nweze'
+        }
+      },
+      {
+        path: '/certifications',
+        name: 'certifications',
+        component: CertificationsView,
+        meta: {
+          title: 'Certifications - Joshua Nweze'
         }
       }
     ]

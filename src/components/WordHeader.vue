@@ -25,7 +25,7 @@ defineProps(["header"]);
     }
 
     .word {
-        font-size: 50px;
+        font-size: 40px;
         opacity: .7;
     }
 }

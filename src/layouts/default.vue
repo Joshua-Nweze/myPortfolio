@@ -25,6 +25,10 @@
                             ><i class="bi bi-person-rolodex me-2"></i>
                             contact</RouterLink
                         >
+                        <RouterLink to="/certifications" class="link"
+                            ><i class="bi bi-folder me-2"></i>
+                            certifications</RouterLink
+                        >
                         <a :href="resumeLink" target="_blank" class="nav-link"
                             ><i class="bi bi-file-earmark me-2"></i> résumé</a
                         >
