@@ -6,16 +6,41 @@
     <div class="row justify-content-center text-start mt-3">
       <div class="col-md-3 col-sm-12">
           <div class="nav outer" id="nav-tab" name="tablist">
-            <span class="nav-link active border-end" id="nav-job1-tab" data-bs-toggle="tab" data-bs-target="#nav-job1" type="button" name="tab" aria-controls="nav-job1" aria-selected="true">TCMP</span>
-              <span class="nav-link border-end" id="nav-job2-tab" data-bs-toggle="tab" data-bs-target="#nav-job2" type="button" name="tab" aria-controls="nav-job2" aria-selected="true">Mexygabriel</span>
-              <span class="nav-link border-end" id="nav-job3-tab" data-bs-toggle="tab" data-bs-target="#nav-job3" type="button" name="tab" aria-controls="nav-job3" aria-selected="false">Chibex Technologies</span>
+            <span class="nav-link active border-end" id="nav-job5-tab" data-bs-toggle="tab" data-bs-target="#nav-job5" type="button" name="tab" aria-controls="nav-job5" aria-selected="true">Hi Medicare</span>
+            <span class="nav-link border-end" id="nav-job4-tab" data-bs-toggle="tab" data-bs-target="#nav-job4" type="button" name="tab" aria-controls="nav-job4" aria-selected="true">Chigisoft</span>
+            <span class="nav-link border-end" id="nav-job3-tab" data-bs-toggle="tab" data-bs-target="#nav-job3" type="button" name="tab" aria-controls="nav-job3" aria-selected="true">TCMP</span>
+            <span class="nav-link border-end" id="nav-job2-tab" data-bs-toggle="tab" data-bs-target="#nav-job2" type="button" name="tab" aria-controls="nav-job2" aria-selected="true">Mexygabriel</span>
+            <span class="nav-link border-end" id="nav-job1-tab" data-bs-toggle="tab" data-bs-target="#nav-job1" type="button" name="tab" aria-controls="nav-job1" aria-selected="false">Chibex Technologies</span>
           </div>
       </div>
      
       <div class="col-md-9">
           <div class="tab-content" id="nav-tabContent">
-              <!-- job1 -->
-              <div class="tab-pane fade show active" id="nav-job1" name="tabpanel" aria-labelledby="nav-job1-tab" tabindex="0">
+              <!-- job4 -->
+              <div class="tab-pane fade show active" id="nav-job5" name="tabpanel" aria-labelledby="nav-job5-tab" tabindex="0">
+                <div>Full Stack developer at <span class="addChartreuse">Hi Medicare</span></div>
+                  <div class="date">November 2024 - Present</div>
+                  <div class="mt-3">
+                    <ul>
+                      <li>Hi Medicare is a teleheath platform that is basically used for storing patient medical records, prescriptions, and for connecting users to health care provoders</li>
+                      <li>I worked as a Full Stack developer in the Hi Medicare Team</li>
+                      <li>I worked on the dashboard with Nuxt, TypeScript, Supabase, Postgres</li>
+                      <li>I worked on series of features on the platform</li>
+                    </ul>
+                  </div>
+              </div>
+              <!-- job4 -->
+              <div class="tab-pane fade" id="nav-job4" name="tabpanel" aria-labelledby="nav-job4-tab" tabindex="0">
+                <div>Frontend developer (contract) at <span class="addChartreuse">Chigisoft</span></div>
+                  <div class="date">November 2024 - Present</div>
+                  <div class="mt-3">
+                    <ul>
+                      <li>Worked with Backend developers, product designers, and project manageres on series of projects</li>
+                    </ul>
+                  </div>
+              </div>
+              <!-- job3 -->
+              <div class="tab-pane fade show" id="nav-job3" name="tabpanel" aria-labelledby="nav-job3-tab" tabindex="0">
                 <div>Full Stack developer (contract) at <span class="addChartreuse">TCMP (Total Care Management Platform)</span></div>
                   <div class="date">March 2024 - April 2024</div>
                   <div class="mt-3">
@@ -47,8 +72,8 @@
                     </ul>
                   </div>
               </div>
-              <!-- job3 -->
-              <div class="tab-pane fade" id="nav-job3" name="tabpanel" aria-labelledby="nav-job3-tab" tabindex="0">
+              <!-- job1 -->
+              <div class="tab-pane fade" id="nav-job1" name="tabpanel" aria-labelledby="nav-job1-tab" tabindex="0">
                 <div>Intern Junior frontend developer at <span class="addChartreuse">Chibex technologies</span></div>
                   <div class="date">July 2021 - December 2021</div>
 
