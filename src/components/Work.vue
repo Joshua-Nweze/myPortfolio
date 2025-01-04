@@ -23,9 +23,9 @@
                   <div class="mt-3">
                     <ul>
                       <li>Hi Medicare is a teleheath platform that is basically used for storing patient medical records, prescriptions, and for connecting users to health care provoders</li>
-                      <li>I worked as a Full Stack developer in the Hi Medicare Team</li>
-                      <li>I worked on the dashboard with Nuxt, TypeScript, Supabase, Postgres</li>
-                      <li>I worked on series of features on the platform</li>
+                      <!-- <li>I worked as a Full Stack developer in the Hi Medicare Team</li> -->
+                      <li>Building Hi Medicare with Nuxt, TypeScript, Supabase, Postgres</li>
+                      <!-- <li>I worked on series of features on the platform</li> -->
                     </ul>
                   </div>
               </div>
@@ -35,7 +35,7 @@
                   <div class="date">November 2024 - Present</div>
                   <div class="mt-3">
                     <ul>
-                      <li>Worked with Backend developers, product designers, and project manageres on series of projects</li>
+                      <li>Worked with Backend developers, product designers, and project managers on series of projects</li>
                     </ul>
                   </div>
               </div>
