@@ -38,8 +38,9 @@
             </div>
         </div>
 
-        <span class="my-4">View all projects in the <RouterLink to="archive"
-                class="archive addChartreuse"> Archive</RouterLink></span>
+        <span class="my-4">
+            View all projects in the <RouterLink to="archive" class="archive addChartreuse"> Archive</RouterLink>
+        </span>
     </div>
 </template>
 

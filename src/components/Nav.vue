@@ -5,9 +5,7 @@
         ref="navbar"
     >
         <div class="container">
-            <div @click="navigateTo('/')" class="navbar-brand nav-link addChartreuse"
-                >JN</div
-            >
+            <div @click="navigateTo('/')" class="navbar-brand nav-link addChartreuse">JN</div>
 
             <button
                 class="navbar-toggler addChartreuse"
