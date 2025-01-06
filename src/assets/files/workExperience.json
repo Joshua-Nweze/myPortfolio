@@ -1,0 +1,75 @@
+{
+    "workExperience": [
+        {
+            "workPlace": "Hi Medicare",
+            "roles": [
+                {
+                    "role": "Full Stack developer",
+                    "date": "November 2024 - Present"
+                }
+            ],
+            "descriptions": [
+                "Hi Medicare is a teleheath platform that is basically used for storing patient medical records, prescriptions, and for connecting users to health care provoders",
+                "Building Hi Medicare with Nuxt, TypeScript, Supabase, Postgres, Prisma"
+            ]
+        },
+        {
+            "workPlace": "Chigisoft",
+            "roles": [
+                {
+                    "role": "Frontend developer (contract)",
+                    "date": "November 2024 - Present"
+                }
+            ],
+            "descriptions": [
+                "Worked with Backend developers, product designers, and project managers on series of projects"
+            ]
+        },
+        {
+            "workPlace": "TCMP (Total Care Management Platform)",
+            "shortName": "TCMP",
+            "roles": [
+                {
+                    "role": "Full Stack developer (contract)",
+                    "date": "March 2024 - April 2024"
+                }
+            ],
+            "descriptions": [
+                "TCMP is a teleheath platform that connects users to doctors",
+                "I worked as a Full Stack developer in a team of five",
+                "Re-build TCMP website and dashboard with VueJs, NodeJs, ExpressJs, Knex, Supabase, Postgres",
+                "I worked on series of features on the platform"
+            ]
+        },
+        {
+            "workPlace": "Mexygabriel",
+            "roles": [
+                {
+                    "role": "Intern Full Stack developer",
+                    "date": "August 2023 - December 2023"
+                },
+                {
+                    "role": "Intern Frontend developer",
+                    "date": "January 2023 - July 2023"
+                }
+            ],
+            "descriptions": [
+                "Wrote frontend and backend code for projects.",
+                "Created clean, well-documented custom code and updates",
+                "Debugged websites to identify and resolve potential problems"
+            ]
+        },
+        {
+            "workPlace": "Chibex technologies",
+            "roles": [
+                {
+                    "role": "Intern Junior frontend developer",
+                    "date": "July 2021 - December 2021"
+                }
+            ],
+            "descriptions": [
+                "Used HTML, CSS, JavaScript, and frontend frameworks to build top-quality code for diverse projects"
+            ]
+        }
+    ]
+}
