@@ -55,6 +55,7 @@
                     <li>Tailwind</li>
                     <li>NodeJs</li>
                     <li>ExpressJs</li>
+                    <li>Prisma</li>
                   </ul>
                 </div>
                 <div class="col-md-6 col-12">
@@ -65,6 +66,7 @@
                     <li>Netlify</li>
                     <li>Vite</li>
                     <li>Firebase</li>
+                    <li>Supabase</li>
                   </ul>
                 </div>
                 <div class="col-md-6 col-12">
