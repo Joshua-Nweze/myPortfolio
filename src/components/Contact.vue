@@ -3,11 +3,11 @@
         <div class="row">
             <h3 class="col-lg-12 text-center sub-header">Get in touch</h3>
             <div>
-                I am currently looking for a Frontend, or Full Stack developer
+                I am currently looking for a Frontend, Backend, or Full Stack developer
                 role. <br />
                 Send me a mail or reach out to me on Twitter or Linkedin and I
                 will get back to you as soon as possible. I am looking forward
-                to hearing from you.
+                to working with you.
                 <a
                     href="mailto:joshuanweze270@gmail.com"
                     class="text-center d-flex justify-content-center"
