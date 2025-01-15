@@ -72,7 +72,7 @@
         },
         {
             "title": "Dictionary webapp",
-            "about": "An online dictionary for searching word definitions. Inspiration from Frontend Mentor.",
+            "about": "An online dictionary for searching word definitions. An inspiration from Frontend Mentor.",
             "background": "dictionary.jpg",
             "link": "https://seewords.netlify.app/",
             "github": "https://github.com/Joshua-Nweze/WordDictionary",
@@ -107,61 +107,6 @@
                 { "id": 3, "name": "JavaScript"},
                 { "id": 4, "name": "Openweather API"},
                 { "id": 5, "name": "Bootstrap"}
-            ]
-        },
-        {
-            "title": "Breakarecord",
-            "about": "Breakarecord (break a record) is designed to keep record of time taken to complete a specific task,    records can be created, updated and deleted.",
-            "background": "breakarecord.jpg",
-            "link": "https://breakarecord.netlify.app/",
-            "github": "https://github.com/Joshua-Nweze/breakarecord",
-            "year": 2022,
-            "stack": [
-                { "id": 1, "name": "VueJs" },
-                { "id": 2, "name": "Bootstrap" }
-            ]
-        },
-        {
-            "title": "Royalnet",
-            "about": "Royalnet is an online affilite marketing site that pays users for performing tasks, that is advertising products and services.",
-            "background": "royalnet.png",
-            "link": "https://royalnet.com.ng/",
-            "year": 2022,
-            "stack": [
-                { "id": 1, "name": "HTML"},
-                { "id": 2, "name": "CSS"},
-                { "id": 3, "name": "Bootstrap"},
-                { "id": 4, "name": "JavaScript"},
-                { "id": 5, "name": "PHP"},
-                { "id": 6, "name": "MySQL"}
-            ]
-        },
-        {
-            "title": "Todo List",
-            "about": "A todo web app that keeps tracks of tasks to be done.",
-            "background": "dark-bg.jpg",
-            "link": "https://makeatodo.netlify.app",
-            "github": "https://github.com/Joshua-Nweze/To-do-app",
-            "year": 2022,
-            "stack": [
-                { "id": 1, "name": "HTML"},
-                { "id": 2, "name": "CSS"},
-                { "id": 3, "name": "JavaScript"},
-                { "id": 4, "name": "Bootstrap"}
-            ]
-        },
-        {
-            "title": "Sing website theme",
-            "about": "Sing is a free website theme. You can use them for any purpose, even for commercial projects.",
-            "background": "sing-landing.jpg",
-            "link": "https://landing-sing.netlify.app/",
-            "github": "https://github.com/Joshua-Nweze/Landing",
-            "year": 2022,
-            "stack": [
-                { "id": 1, "name": "HTML"},
-                { "id": 2, "name": "CSS"},
-                { "id": 3, "name": "JavaScript"},
-                { "id": 4, "name": "Bootstrap"}
             ]
         }
     ]
