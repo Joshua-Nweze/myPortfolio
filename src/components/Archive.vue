@@ -37,7 +37,7 @@
 </template>
 
 <script setup>
-import projects from "@/assets/files/projects.json";
+import projects from "@/assets/jsonFiles/projects.json";
 import { ref } from '@vue/reactivity';
 import { RouterLink } from "vue-router";
 

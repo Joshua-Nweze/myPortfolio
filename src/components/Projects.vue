@@ -46,7 +46,7 @@
 
 <script setup>
 import { ref } from '@vue/runtime-core'
-import projects from '@/assets/files/projects.json'
+import projects from '@/assets/jsonFiles/projects.json'
 
 let my_projects = ref(projects.works)
 </script>

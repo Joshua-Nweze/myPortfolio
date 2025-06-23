@@ -55,7 +55,7 @@
 </template>
 
 <script setup>
-import experience from '@/assets/files/workExperience.json'
+import experience from '@/assets/jsonFiles/workExperience.json'
 import { ref } from '@vue/runtime-core'
 
 let workExperience = ref(experience.workExperience)
