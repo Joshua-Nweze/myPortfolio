@@ -1,6 +1,17 @@
 {
     "works" :[
         {
+            "title": "Cecy Foundation",
+            "about": "Cecy Foundation is an NGO. A subidiary of CecyHealth with a mission to help less privileged children in Africa get access to quality education and healthcare.",
+            "background": "cecyfoundation.png",
+            "link": "https://ceciliaoyebolafoundation.com/",
+            "year": 2024,
+            "stack": [
+                { "id": 1, "name": "Nuxtjs"},
+                { "id": 2, "name": "TailwindCSS"}
+            ]
+        },
+        {
             "title": "CecyHealth",
             "about": "CecyHealth is a healthcare organization with a passion to bring Quality and affordable healthcare to all parts of Africa.",
             "background": "cecyhealth.png",
