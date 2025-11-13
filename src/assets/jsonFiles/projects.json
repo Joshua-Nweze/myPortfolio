@@ -1,11 +1,27 @@
 {
     "works" :[
         {
+            "title": "Power Conference 2025",
+            "about": "Power Conference is an annual event organized by The Saints Gathering Church to empower believers through impactful teachings, worship, and fellowship. This website lets attendees register online and instantly get a personalized digital flier with their own photo, all generated automatically.",
+            "background": "pc-25.png",
+            "link": "https://powerconference.thesaintsgathering.org/",
+            "year": 2025,
+            "stack": [
+                { "id": 1, "name": "Nuxtjs"},
+                { "id": 2, "name": "TailwindCSS"},
+                { "id": 3, "name": "NodeJs"},
+                { "id": 4, "name": "ExpressJs"},
+                { "id": 5, "name": "Firebase"},
+                { "id": 6, "name": "Firestore"},
+                { "id": 7, "name": "Sharp.js"}
+            ]
+        },
+        {
             "title": "Cecy Foundation",
             "about": "Cecy Foundation is an NGO. A subidiary of CecyHealth with a mission to help less privileged children in Africa get access to quality education and healthcare.",
             "background": "cecyfoundation.png",
             "link": "https://ceciliaoyebolafoundation.com/",
-            "year": 2024,
+            "year": 2025,
             "stack": [
                 { "id": 1, "name": "Nuxtjs"},
                 { "id": 2, "name": "TailwindCSS"}
