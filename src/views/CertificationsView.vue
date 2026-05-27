@@ -15,7 +15,7 @@
                         </div>
                         <div class="col-12 col-md-6 col-lg-7 mt-2">
                             <a target="_blank">
-                                <p class="ceertificate-title">Lagacy JavaScript Algorithms and Data Structures</p>
+                                <p class="ceertificate-title">Legacy JavaScript Algorithms and Data Structures</p>
                             </a>
                             <p class="certificate-date">April, 2023</p>
 

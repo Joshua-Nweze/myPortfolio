@@ -4,13 +4,14 @@
             "workPlace": "Hi Medicare",
             "roles": [
                 {
-                    "role": "Full Stack developer",
+                    "role": "Full-stack developer",
                     "date": "November 2024 - Present"
                 }
             ],
             "descriptions": [
-                "Hi Medicare is a teleheath platform that is basically used for storing patient medical records, prescriptions, and for connecting users to health care provoders",
-                "Building Hi Medicare with Nuxt, TypeScript, Supabase, Postgres, Prisma"
+                "Architect and scale the frontend and backend infrastructure for a comprehensive healthcare platform using Nuxt.js, Supabase, and PostgreSQL.", 
+                "Design robust database schemas and optimize serverless workflows to ensure secure, real-time synchronization of patient and clinical data.",
+                "Manage end-to-end cloud deployment and hosting configurations on platforms like Vercel and Render, leveraging automated CI/CD workflows to ensure high platform availability."
             ]
         },
         {
@@ -22,7 +23,8 @@
                 }
             ],
             "descriptions": [
-                "Worked with Backend developers, product designers, and project managers on series of projects"
+                "Collaborated with cross-functional teams to deliver responsive and scalable frontend applications, improving user experience and application maintainability.",
+                "Translated high-fidelity Figma designs into responsive, pixel-perfect UI components using modern CSS frameworks."
             ]
         },
         {
@@ -30,22 +32,21 @@
             "shortName": "TCMP",
             "roles": [
                 {
-                    "role": "Full Stack developer (contract)",
+                    "role": "Full-stack developer (short-term contract)",
                     "date": "March 2024 - April 2024"
                 }
             ],
             "descriptions": [
-                "TCMP is a teleheath platform that connects users to doctors",
-                "I worked as a Full Stack developer in a team of five",
-                "Re-build TCMP website and dashboard with VueJs, NodeJs, ExpressJs, Knex, Supabase, Postgres",
-                "I worked on series of features on the platform"
+                "Contributed as a Full-Stack Developer in a 5-member engineering team.",
+                "Rebuilt the TCMP website and admin dashboard using Vue.js, Node.js, Express.js, Knex, Supabase, and PostgreSQL to improve features, scalability and user experience.",
+                "Implemented and optimized key platform features, contributing to improved performance and smoother user interactions."
             ]
         },
         {
             "workPlace": "Mexygabriel",
             "roles": [
                 {
-                    "role": "Intern Full Stack developer",
+                    "role": "Intern Full-stack developer",
                     "date": "August 2023 - December 2023"
                 },
                 {
@@ -54,9 +55,7 @@
                 }
             ],
             "descriptions": [
-                "Wrote frontend and backend code for projects.",
-                "Created clean, well-documented custom code and updates",
-                "Debugged websites to identify and resolve potential problems"
+                "Developed responsive user interfaces and robust server-side logic for web applications using Vue.js and Node.js."
             ]
         },
         {
