@@ -7,7 +7,7 @@
 
       <div>Hi there 👋🏽, my name is</div>
       <div class="addChartreuse name">Joshua Nweze</div>
-      <div class="what-i-do">I am a Full Stack Developer</div>
+      <div class="what-i-do">I am a Full-stack developer</div>
 
       <div class="pt-5">
         <a :href="resumeLink" target="_blank"><span class="front-btn">résumé</span></a>
@@ -27,57 +27,33 @@
 
         <div>
 
-            <p>Hello there! 👋, I am a passionate Full Stack Developer with an eye for creating robust and scalable websites and web applications. I enjoy using my expertise in front-end and back-end development in bringing creative ideas to life.</p>
+            <p>Hello there! 👋, I am a passionate Full-stack developer with an eye for creating robust and scalable websites and web applications. I enjoy using my expertise in front-end and back-end development in bringing creative ideas to life.</p>
 
             <p>I am still on  the journey of learning and discovering new things in the world of tech.</p>
 
             <p>Other of my hobbies include reading, discovering and learning new things, playing computer games, movies and music.</p>
 
             <p>Here are technologies I work with:</p>
-            <div>
-              <div class="row">
-                <div class="col-md-6 col-12"> 
-                  <h6 class="addChartreuse">Languages</h6>
-                  <ul type='circle'>
-                    <li>JavaScript</li>
-                    <li>TypeScript</li>
-                    <li>HTML</li>
-                    <li>CSS</li>
-                  </ul>
-                </div>
-                <div class="col-md-6 col-12">
-                  <h6 class="addChartreuse">Libraries &amp; Frameworks</h6>
-                  <ul type='circle'>
-                    <li>VueJs</li>
-                    <li>NuxtJs</li>
-                    <li>React</li>
-                    <li>Bootstrap</li>
-                    <li>Tailwind</li>
-                    <li>NodeJs</li>
-                    <li>ExpressJs</li>
-                    <li>Prisma</li>
-                  </ul>
-                </div>
-                <div class="col-md-6 col-12">
-                  <h6 class="addChartreuse">Tools &amp; Platforms</h6>
-                  <ul type='circle'>
-                    <li>Git</li>
-                    <li>Github</li>
-                    <li>Netlify</li>
-                    <li>Vite</li>
-                    <li>Firebase</li>
-                    <li>Supabase</li>
-                  </ul>
-                </div>
-                <div class="col-md-6 col-12">
-                  <h6 class="addChartreuse">Database</h6>
-                  <ul type='circle'>
-                    <li>MongoDB</li>
-                    <li>PostgreSQL</li>
-                  </ul>
-                </div>
+            <div class="">
+              <div class="mt-4">
+                <span class="addChartreuse">Frontend:</span> JavaScript (ES6+), TypeScript, HTML5, CSS3, Vue.js, Nuxt.js, React.js, Next.js, State Management (Pinia, Redux), TanStack Query (Vue/React Query), Responsive Web Design, SSR & SEO Optimization
               </div>
-               
+
+              <div class="mt-4">
+                <span class="addChartreuse">Backend:</span> Node.js, Express.js, RESTful API Design, JWT Authentication, Two-Factor Authentication (2FA), Role-Based Authorization
+              </div>
+
+              <div class="mt-4">
+                <span class="addChartreuse">Databases & Backend Services:</span> PostgreSQL, MongoDB, Supabase, Firebase, Cloud Firestore, Prisma ORM, Knex.js
+              </div>
+
+              <div class="mt-4">
+                <span class="addChartreuse">Styling & UI:</span> Tailwind CSS, Bootstrap, SCSS, Shadcn UI
+              </div>
+
+              <div class="mt-4">
+                <span class="addChartreuse">Tools & Workflow:</span> Git, GitHub, GitLab, Postman, CI/CD, Netlify, Vercel, Render
+              </div>
             </div>
 
             <!-- <p>Currently, I am learning React. </p> -->
